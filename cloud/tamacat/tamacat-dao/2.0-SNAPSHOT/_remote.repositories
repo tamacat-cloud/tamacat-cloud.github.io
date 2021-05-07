@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat May 08 03:19:35 JST 2021
+tamacat-dao-2.0-SNAPSHOT.jar>=
+tamacat-dao-2.0-SNAPSHOT-sources.jar>=
+tamacat-dao-2.0-SNAPSHOT.pom>=

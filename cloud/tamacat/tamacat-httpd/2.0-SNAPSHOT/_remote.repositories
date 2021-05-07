@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat May 08 02:47:16 JST 2021
+tamacat-httpd-2.0-SNAPSHOT.jar>=
+tamacat-httpd-2.0-SNAPSHOT-sources.jar>=
+tamacat-httpd-2.0-SNAPSHOT.pom>=
+tamacat-httpd-2.0-SNAPSHOT-jar-with-dependencies.jar>=

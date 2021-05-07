@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>cloud.tamacat</groupId>
+  <artifactId>tamacat-core</artifactId>
+  <versioning>
+    <versions>
+      <version>2.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210507180111</lastUpdated>
+  </versioning>
+</metadata>
