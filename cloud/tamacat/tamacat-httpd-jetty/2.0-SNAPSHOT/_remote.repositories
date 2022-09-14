@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 15 04:19:26 JST 2022
+tamacat-httpd-jetty-2.0-SNAPSHOT-sources.jar>=
+tamacat-httpd-jetty-2.0-SNAPSHOT-jar-with-dependencies.jar>=
+tamacat-httpd-jetty-2.0-SNAPSHOT.jar>=
+tamacat-httpd-jetty-2.0-SNAPSHOT.pom>=
