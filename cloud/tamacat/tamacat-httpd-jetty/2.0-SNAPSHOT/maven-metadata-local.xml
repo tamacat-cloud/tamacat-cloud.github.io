@@ -3,7 +3,7 @@
   <groupId>cloud.tamacat</groupId>
   <artifactId>tamacat-httpd-jetty</artifactId>
   <versioning>
-    <lastUpdated>20221120142855</lastUpdated>
+    <lastUpdated>20230109114110</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -12,23 +12,23 @@
         <classifier>jar-with-dependencies</classifier>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20221120142855</updated>
+        <updated>20230109114110</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20221120142855</updated>
+        <updated>20230109114110</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20221120142855</updated>
+        <updated>20230109114110</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20221120142855</updated>
+        <updated>20230109114110</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
