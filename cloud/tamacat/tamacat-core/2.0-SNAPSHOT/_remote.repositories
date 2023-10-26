@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jan 09 20:30:45 JST 2023
-tamacat-core-2.0-SNAPSHOT.jar>=
+#Thu Oct 26 23:32:27 JST 2023
+tamacat-core-2.0-SNAPSHOT-cyclonedx.json>=
+tamacat-core-2.0-SNAPSHOT-cyclonedx.xml>=
 tamacat-core-2.0-SNAPSHOT-sources.jar>=
+tamacat-core-2.0-SNAPSHOT.jar>=
 tamacat-core-2.0-SNAPSHOT.pom>=

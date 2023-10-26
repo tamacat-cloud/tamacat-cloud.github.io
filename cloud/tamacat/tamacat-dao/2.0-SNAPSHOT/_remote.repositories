@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jan 09 20:32:51 JST 2023
-tamacat-dao-2.0-SNAPSHOT.jar>=
+#Thu Oct 26 23:33:58 JST 2023
+tamacat-dao-2.0-SNAPSHOT-cyclonedx.json>=
+tamacat-dao-2.0-SNAPSHOT-cyclonedx.xml>=
 tamacat-dao-2.0-SNAPSHOT-sources.jar>=
+tamacat-dao-2.0-SNAPSHOT.jar>=
 tamacat-dao-2.0-SNAPSHOT.pom>=

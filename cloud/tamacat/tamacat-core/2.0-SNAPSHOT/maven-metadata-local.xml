@@ -3,26 +3,38 @@
   <groupId>cloud.tamacat</groupId>
   <artifactId>tamacat-core</artifactId>
   <versioning>
-    <lastUpdated>20230109113025</lastUpdated>
+    <lastUpdated>20231026143151</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
+        <classifier>cyclonedx</classifier>
+        <extension>json</extension>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20231026143151</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>cyclonedx</classifier>
+        <extension>xml</extension>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20231026143151</updated>
+      </snapshotVersion>
+      <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20230109113025</updated>
+        <updated>20231026143151</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20230109113025</updated>
+        <updated>20231026143151</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20230109113025</updated>
+        <updated>20231026143151</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
