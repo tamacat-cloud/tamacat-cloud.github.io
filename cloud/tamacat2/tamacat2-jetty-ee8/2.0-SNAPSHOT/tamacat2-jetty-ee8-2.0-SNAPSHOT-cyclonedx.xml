@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:3a5e27fb-0ff6-4cf4-839d-dd117c6c6da0" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-11-10T13:48:24Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.9</version>
+        <hashes>
+          <hash alg="MD5">8e595cdb67f17e4b41e046456970591d</hash>
+          <hash alg="SHA-1">69e8ca804520d09ce4657e7235bae84d01cbffa6</hash>
+          <hash alg="SHA-256">aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8</hash>
+          <hash alg="SHA-512">1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b</hash>
+          <hash alg="SHA-384">b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c</hash>
+          <hash alg="SHA3-384">289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c</hash>
+          <hash alg="SHA3-256">32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474</hash>
+          <hash alg="SHA3-512">1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/cloud.tamacat2/tamacat2-jetty-ee8@2.0-SNAPSHOT?type=jar">
+      <group>cloud.tamacat2</group>
+      <name>tamacat2-jetty-ee8</name>
+      <version>2.0-SNAPSHOT</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/cloud.tamacat2/tamacat2-jetty-ee8@2.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://tamacat.cloud/</url></reference><reference type="vcs"><url>https://github.com/tamacat-cloud/tamacat2.git/tamacat2-jetty-ee8</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar">
+      <group>cloud.tamacat2</group>
+      <name>tamacat2-reverse</name>
+      <version>2.0-SNAPSHOT</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d56d3d7a591e93b16df67126d8eb67de</hash>
+        <hash alg="SHA-1">2c27e692503bdff82f13c90c079e674811540d2e</hash>
+        <hash alg="SHA-256">3d664c312f4dc47cb19ce379e383e75751c072ce419f790261c3d740ea6fa9bc</hash>
+        <hash alg="SHA-512">48db0a34061968bc83dad512d322848b92c4be299e891cf5f7a0c937b9707fd71e62dab0e1b5b677edc04f2d01b66da0b4562909d81f18f591c01abae65e1031</hash>
+        <hash alg="SHA-384">4a92d929aaa8ce72f470ff38fae0e137cfee690ffb5ce712b6a249556338fd81608d0b6eea5fe9000debd7e97afa4256</hash>
+        <hash alg="SHA3-384">b17738aa22fc44fcb9c4c145807f48cbc7a20f3c1f4aadfce2a0874caf12703430b43db8624ea69ba9e50d90902d48c1</hash>
+        <hash alg="SHA3-256">0302474e42f788462fa0fcab93b1a0b98e905686deb728dfabac1ba4752da3b9</hash>
+        <hash alg="SHA3-512">f19a738c865cdfca8891c21c83575f8ac8712687eed0b8f6682b7f57e8902d67be50aeeab52d9fd9d5e7275d30eca14ba3553d1fb71b20ed19175a2e8821705b</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://tamacat.cloud/</url></reference><reference type="vcs"><url>https://github.com/tamacat-cloud/tamacat2.git/tamacat2-reverse</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar">
+      <group>cloud.tamacat2</group>
+      <name>tamacat2-httpd</name>
+      <version>2.0-SNAPSHOT</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b294520f5d3270d3a35fa4f96e6edd84</hash>
+        <hash alg="SHA-1">a7aaab46d151ec7d0e4ea185c8888baf65f0b8dd</hash>
+        <hash alg="SHA-256">26caa0de559fc86c89fcbc7e66796a8811cdf714b3a08356bd93d2d3973629cf</hash>
+        <hash alg="SHA-512">4df7b1ceaa846ff8df88c26e86081aa1b23ca75f26c460e81c583ea8e6fc3beb280d4d4addc35bcd7ae9abd23d05af8466a17a797389798e361f05b23f1b991f</hash>
+        <hash alg="SHA-384">11aaad5b4b2674a087fff3e9409b2aa86a693405b3b8b7860e16e751ad62091e2f446e34df1ed1d6d09ab378a68feea0</hash>
+        <hash alg="SHA3-384">36e6841024a23ca514aceda716a7d0f680abecf8ebe459ebba5a4f292630b1012184d60f98d825faa41cf47a89b19d19</hash>
+        <hash alg="SHA3-256">162ae8e15bde88e72e0d66606b40f26e45d345f79bcd9a15566d9c8d22d80aea</hash>
+        <hash alg="SHA3-512">3d847157f99e5a7e4b406287a423cb03ee5feae7a2037ce2300043249eb2b0e266ab380d2cbafd51f81d0209b40d65d7ca8f447a6c0d4922fc10144e5ef66184</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://tamacat.cloud/</url></reference><reference type="vcs"><url>https://github.com/tamacat-cloud/tamacat2.git/tamacat2-httpd</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2.3?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.httpcomponents.core5</group>
+      <name>httpcore5</name>
+      <version>5.2.3</version>
+      <description>Apache HttpComponents HTTP/1.1 core components</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">fc50cbfa50e2798cfc1586600a9733df</hash>
+        <hash alg="SHA-1">687cede1a44f70c7741abfab6ee2aa53dd2bfb54</hash>
+        <hash alg="SHA-256">5c0bda45a6b360dfc4e0e0b26f10f68ea96b403cb7324c50e420207e33184c27</hash>
+        <hash alg="SHA-512">1eb330ed5f3f2373faf26b8d1ac2b25bd5c57c76e1956ba7025d4cc05dee6ede58743ceb20bf69acd925e7304abfaeee3e91fd0d7e0d547401982aeaba05f86d</hash>
+        <hash alg="SHA-384">d3c44c3f48656f7b5294469a9f5696135c0dbf6b77c0da1df2c18dbc298bcee91d53c5f07fc124c5a6bdd2e741c4b9c2</hash>
+        <hash alg="SHA3-384">879b0f0d3b20998287c750145bf93a612e3f86704c6b81d0be28dcc5ba322aeec336666bb204b36b00d349f8dc741736</hash>
+        <hash alg="SHA3-256">7b40bc49c3bbaa180e16590411cd7f3d311ecd6417a3058cccdbb6e9e8cc38d9</hash>
+        <hash alg="SHA3-512">2bc7f5bfac772e1cc8d1ffa35e57f0b5637da802ac5604dd16fa2666e7f4c0de16888b6c4a63a1758b22392dfe81696b57e5c92597b487ad8bf8e9af05bbb978</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://hc.apache.org/httpcomponents-core-5.2.x/5.2.3/httpcore5/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/HTTPCORE</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?httpclient-users@hc.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/httpcomponents-core/tree/5.2.3/httpcore5</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-server</name>
+      <version>12.0.3</version>
+      <description>The legacy jetty server artifact.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e1d35a9954ee5473e08244a95c9958bf</hash>
+        <hash alg="SHA-1">8503aca881540219ad1ae86e8df49e836517298f</hash>
+        <hash alg="SHA-256">211679fc3c3c272c26746c1290196e154383788b76541c5821813ef3a378103b</hash>
+        <hash alg="SHA-512">a1263bfe1835d3a792fe933af86d2260cad51501aa56361b716c8fb01d99d23a529a2926ebc8bedc7299cec068f503c9460a4031e36dcc662fbf8e73658d0920</hash>
+        <hash alg="SHA-384">2194dbb1ef7390e13b48db795198d825ca8ff04dce6713a154c68e73f7998ea1f2054183c12b9ff6fd95f715a9f7cbe6</hash>
+        <hash alg="SHA3-384">549cf83006c3ec017c82f5d9fab653ae993d9d2a8fd90a3f449dbff5de75415c4484809e19be9a0d8ba9a1cfcc74d85e</hash>
+        <hash alg="SHA3-256">88d448683c307533efeb267ea2f0281f651465b0b0fdb6c6a4072955a0125e67</hash>
+        <hash alg="SHA3-512">f8d765dc2cde649490a5009d77a94dd855331a6d05e39c679703b118ce722da5f7283d32f25b7b7caeb1bf50399c8e02270daeee3165dcb884a8386a4411af86</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-server</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-server</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-http</name>
+      <version>12.0.3</version>
+      <description>The Eclipse Jetty Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">148cb7403cafcf9d0db0dd852d9b0f44</hash>
+        <hash alg="SHA-1">ed4e6134ba7ede0a59555a33604efc9d496b35be</hash>
+        <hash alg="SHA-256">826121fe7c2ed3e850fd3f4561e6740750a07987779c308df5befd98341c7185</hash>
+        <hash alg="SHA-512">f956475fb1f7375edb513e2667faf3e52a5767de61018ba3e759017190dca351b9e708e2ffe2fa1ee8a8b83dfdc388ead7f3a75fbd69e44840822b8b895b0fe5</hash>
+        <hash alg="SHA-384">1f938ac6041226a2e3872e1c4b194c52e16880c8496afe24724f91bff1c8667a10d7305a2cc72fb5a2874aa52a7fd969</hash>
+        <hash alg="SHA3-384">b6df7f5d2456097b4169fbd0df7e074618d56f76d9b08a5161660f7797708266abbdae78fe5fb91fd356f14cb192161b</hash>
+        <hash alg="SHA3-256">d0b6a1a9770d27f49350569d24c3c36239822085e1c6ac4149eb7619553c768e</hash>
+        <hash alg="SHA3-512">05fe332e076edb7f3dc121ca3af750bfd2683f2d7478c296d53b327d612b25584c2e7d31cab25707ba86ffa7f9a82196a30350c99e1d6a007b385f28fda5b87f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-http</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-http</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-io</name>
+      <version>12.0.3</version>
+      <description>The Eclipse Jetty Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">48eb9b83a45e9618962379119d445fe0</hash>
+        <hash alg="SHA-1">45670873c49bf053fc1c7d07059f3c7052489459</hash>
+        <hash alg="SHA-256">35a196e4f6c155f014c80eb3dbdb63a90c5cc38e642e63d7ae0c04756712b206</hash>
+        <hash alg="SHA-512">899f40a5d406e5cdd782893d0b33e91439f84bbceb48aa24270b4183211a67ed2a562d98eb87a4fb6ba66ff38be9fb73d159a8aa272b3393f5ddb45676f282bc</hash>
+        <hash alg="SHA-384">a2eaf524b35a3e2625a29fac10ad246955328bc1078f6f410a475fd6c02e1e867f835559d09dc06079a5adf3dc97f7e2</hash>
+        <hash alg="SHA3-384">954cfa11d057a4bb16007b12c96116abbb69d618e2709a7a0fa689aefd0dc9a162bf5c5cdfb2bb8de1eae88b4c0f19dd</hash>
+        <hash alg="SHA3-256">09a585374772c69275925a40935fcd4fc1262b3ed79f9cca94a1db812c4a3225</hash>
+        <hash alg="SHA3-512">bd06f1df6fd93481200d76cfb17c814fe4260b8458fea2edf02d5a892f5c3c2be47ef3232d1b27613baba8c2f55687cfebe0d25fd4ac3f11a0dd8863f4a0edbb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-io</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-io</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-webapp@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-webapp</name>
+      <version>12.0.3</version>
+      <description>Jetty web application support</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">75bb1130c0802d9a922a3a2f9c296965</hash>
+        <hash alg="SHA-1">e80b39ec4d98ec1cd79ec59c2da7793f8674cb95</hash>
+        <hash alg="SHA-256">70abd618fbf602f5c7da5658a1623438dcd8e53d3c14a74df1dd2a320d0fa966</hash>
+        <hash alg="SHA-512">93e8de7a8b0b3219516724122532fa0878382842e2e3f9e5e058ef3b80ef7ccef2d37b0fbe4591a14fbfd42bbc65afd2b30485c2ca10a3ad915f5a8c34a27605</hash>
+        <hash alg="SHA-384">1b1bf2a498d145ddf2b273258be6a26628675bb2aef9f3ad5573b77d409a642fca2a2628029ef22ca2dc5a8a1178a02b</hash>
+        <hash alg="SHA3-384">6c9ac912db950e28cf4e3823b96b6d99ca4260cfc76b3e16655dab6c8952824b627722af285617a2c8f4e3dfce20934e</hash>
+        <hash alg="SHA3-256">2370b808b0c860ed99e89510a60a46766538ba7a1b8ce85a5dee611711cbfaef</hash>
+        <hash alg="SHA3-512">0947f1869bb06ac52d2dd0ef4784280ae8c733c508c4da39d418cee4d3b43b9227c8f48e663b5a9678c982bdb79af34943025925c03196523108ee0cb086d151</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-webapp@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-webapp</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-webapp</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-xml@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-xml</name>
+      <version>12.0.3</version>
+      <description>The jetty xml utilities.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">24f5c72a10c98c9c5188a71bdab385dd</hash>
+        <hash alg="SHA-1">410f2bec4445ea5f4c0f332418654c2e2a236f55</hash>
+        <hash alg="SHA-256">d23ca3617340231bc14ca9034ede4b2c37cb2b7abe4fad4a2a2e1a0392626c66</hash>
+        <hash alg="SHA-512">a7d623711dbaab8590f62764c6539cc77e321bc82c7f80ac6ae153a5f58d45e7c0ad353211a965a1e093d9758e1cb2ab9d4925df69ec62d63caa95a0ee8673ad</hash>
+        <hash alg="SHA-384">f186b2a4191ecffac641f9e412964eb369d87f0c6c199c622fc310392c0c3e083c428fdbcd7da6c98d79fcc60587fd94</hash>
+        <hash alg="SHA3-384">1034037e372251823a593bd77e3733fe9429a97eac37d592a48d1bd547e489ea4144c587d35a7a166bddd19dbb030df8</hash>
+        <hash alg="SHA3-256">8648530a345a3e94fba0c2c0830fa63f268e60d989b88aeb6831c1907f7a0689</hash>
+        <hash alg="SHA3-512">2f9bc3bc868939ba6661126614cf987ac55e86dc0752e45570b444714b887b906c09a5909fb9dd8e015770fab8a01b21ccdf6633a306111d16b0339ab6036c88</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-xml@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-xml</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-xml</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlet@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-servlet</name>
+      <version>12.0.3</version>
+      <description>Jetty Servlet Container</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">a6cc911b463179dd554b92e63c60a1db</hash>
+        <hash alg="SHA-1">b8985ee6f1972fe53fe6fa3537914c5524d36057</hash>
+        <hash alg="SHA-256">1c019a9c16e9fa573699d21641a50c75f5e2343f3c7d172ccdacfb70a5f04ebf</hash>
+        <hash alg="SHA-512">09d69c9b310181f8eebf6c94f4713780719ba113e8590a80e61c8eaafc5d74bd61001c1b805e48adc235d112f02a09614f1d11f92a4d34d63be578052ffca06d</hash>
+        <hash alg="SHA-384">529ad5b1d14958fe47ad7b7b69158d5cb6962b785918f2244a0625e3011283f42ee63ee2082b983f444ebfbb71b62210</hash>
+        <hash alg="SHA3-384">96529df8725d043c683507851c1fb12da54c3b5cdd1fafaa5856baa2dde268746b2e6b760e8f217c329278f01ae269fc</hash>
+        <hash alg="SHA3-256">e671b2b620a6db8e793d7ab9fa402e5c82b55d1f61e76c67341a324b4039341d</hash>
+        <hash alg="SHA3-512">7b4d788c713424ad4ad3ac03dd15c86cba0d75e3595dcd787658fee12bc3d8b07a431efbdb6f1e59dfc9cb9b0d6340781a9f19d206cc1b858f8368acb1968edc</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlet@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-servlet</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-servlet</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-nested@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-nested</name>
+      <version>12.0.3</version>
+      <description>The jetty core handler adapted to legacy ee8 handler.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">3bf969ad15ad5c75eacc85867fe6ac35</hash>
+        <hash alg="SHA-1">0ab87bb9f7c9868608142ecf2024f31c67551171</hash>
+        <hash alg="SHA-256">9f39d31e848b820d1046ed455a5340382ad02ac5793f5988c619f24e24d1648a</hash>
+        <hash alg="SHA-512">d08d0ed0b4cb2486a16f88eec45b7dba9a853234ef0bcb3e78754ac150b89a99385a52c4fd171ad785af9cba2adb8e6aab2716a2117d5138efda85928349b977</hash>
+        <hash alg="SHA-384">1094debe28fc146c58c2f502f58a05f2f6da5bfe9fe6b1879f0c04495d8c89efed5099fc44008ee649af8b1d5e7f1e5a</hash>
+        <hash alg="SHA3-384">b95b740defd50029b6fa290cc400528dbee306c261de6846d93c22ebfcb451e0c469ea64bda6c15bf6f8d73d952752b3</hash>
+        <hash alg="SHA3-256">abeac3feb9de09c5df0250750b0cea074285a4bc67ececca967beeb741896832</hash>
+        <hash alg="SHA3-512">94dd3dbc9029c1fb7d8f26385f48fc03c92c75d09c153412ee651da1f0d46b69e09d949b898ea4d322b55ca92a8989e312226fbe1e4c00a094053f4dca567628</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-nested@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-nested</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-nested</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-security@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-security</name>
+      <version>12.0.3</version>
+      <description>The common Jetty security implementation</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">21e0a575508316a803e45d9e34abc3be</hash>
+        <hash alg="SHA-1">82df341f8f00da4f85c3ee3b3f540c7725dbf1f0</hash>
+        <hash alg="SHA-256">747d7fc40fa7b9aa8bd1c86e25c2d8e23985fe5c2830379d20b87fb34db1f703</hash>
+        <hash alg="SHA-512">fa0fe349a46464380764a1603b3672b49db60df22b4fbafb9d71881997b484df03beb741cb0fbac1677a03ff549b35d1d88d7d13572707d14793a05b8b170102</hash>
+        <hash alg="SHA-384">14b3a7effdfd80cb86041c9b3f2dde324564681f9835587b61f38de7c7fc866ca4819378e6f3cc3dbc8814999f7aae4e</hash>
+        <hash alg="SHA3-384">b4121bdd64c875490539d7967d113d168cd0b834b1fa0054fe7be4c57ed9f73f717ca1a9361c9b6d7c22ad482879799e</hash>
+        <hash alg="SHA3-256">24c14521df2e12fe6bef40f6a4ae51de7c9fec1f53a1a572508507b65befd569</hash>
+        <hash alg="SHA3-512">4cb4f9480f936b56c64736da68904783f58b41b75bc5b7947beec925327dff049a4bb632ab545620c82dc8b8178aa82418d7148671ff862af1271e9c1810b295</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-security@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-security</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-security</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-session@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-session</name>
+      <version>12.0.3</version>
+      <description>The common jetty session implementation</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">b82e61d187cc5e54a88e6f191b00f650</hash>
+        <hash alg="SHA-1">a3d59036c54249ba22405e819f8998d9a7dc9935</hash>
+        <hash alg="SHA-256">0e4bb0f4dc4542e779f7109decbbdffe04a30b9d3d3bdc790d065da170b294a0</hash>
+        <hash alg="SHA-512">7956f7931f558020740ed7d39eaea27400117efe42a8987ee3ac41a9b473e94217e20777313b2f504f101d2049245c8bfc227dcf825d354130773fb0ca10a641</hash>
+        <hash alg="SHA-384">4ae070a206021ef8c03a9b899fc135ecc3e93fa89383d9505be7ab9b3056cbaf5facb0f3a009de11d7da868ec37b1a54</hash>
+        <hash alg="SHA3-384">959ddebb12c8e1b29fb93dc266a750a763f1e0d8de013241e19f7ec60d1a99a4a3ead374d64e556caaab11e6ceff5c5b</hash>
+        <hash alg="SHA3-256">d27b2a7c59fe6a8469a7225ae6e359ff69f1e79d15059cd99b1fb09514182ca0</hash>
+        <hash alg="SHA3-512">f98011f1e167f1b5225f436649c17738d6af8716e5eec9e8cb83e112a0f8a4ef451884112c9009fbc3d8a19f552ffc30c425dd41f2fda596840d5d318e7619c1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-session@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-session</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-session</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-security@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-security</name>
+      <version>12.0.3</version>
+      <description>Jetty security infrastructure</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">44aaf188a9569d81157bc5b6369c822c</hash>
+        <hash alg="SHA-1">1094f53a5529d2eafd7dc82cc76d148a2523d4de</hash>
+        <hash alg="SHA-256">c1669a05dc605d351e4b2a5e7806fab9d98b2bbd604cf7f1ed45ffc51d2941d1</hash>
+        <hash alg="SHA-512">d130590bdf1dca6a671a980d6e938938df7759d3a68ee51f5e70038f91d64e803250881539c17df77cc00ec8f28dad21900848ea03f9c636b9046d09b90f5bce</hash>
+        <hash alg="SHA-384">c19616b370d883d0a24aaad61dd2f92127c8b95030a73394714dd2f0491bfb25da74699b566100a60ed0c7d28ab2ac9c</hash>
+        <hash alg="SHA3-384">e4432d0df74f2f7fe731cde927751a679ad108851e15eb318dec0b5372e97fadde5cd18194197644b6a17dd9df0bca3d</hash>
+        <hash alg="SHA3-256">bd058f2c29ed2f1c0ad6edd74dba80850618b8c24eca274a983edc76b87ca0f0</hash>
+        <hash alg="SHA3-512">6ff4fb39c52f12baac15e478eba14cf237da69bf6a533e31d20a42f765a407001a8c82d1c626090bf6cd56fea58af55f4eb1a25803f719f38de7a1c3c404cce0</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-security@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-security</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-security</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlets@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-servlets</name>
+      <version>12.0.3</version>
+      <description>Jetty Utility Servlets</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">89ef35fe2315021a2759691a98293a11</hash>
+        <hash alg="SHA-1">8fe564a2058c15706b4924fc387769ba453d733c</hash>
+        <hash alg="SHA-256">c666acdfd969ebcb0fb5ad1e6a58efcbd18e5b378fff1736140ac667fbc1defa</hash>
+        <hash alg="SHA-512">1beff77a18d268dc7d36201b2adcec36834365dfc48aba9c5e3ea4002edce4001a0a149d775fb274217482fad689ebb6d7cac5c9db115d868bdd8b2d02dec61b</hash>
+        <hash alg="SHA-384">f2e516015902e3afd42a19caae485e069868a7f5e6b96ca28cbf2855e495dbd2bddfa0231c06eb7726333790dd9f9dd0</hash>
+        <hash alg="SHA3-384">78b753fc1feec5ae037e12a02a9be442c45f84120295a6b78b93d0e8f6130591c33468b0c1880aff79ad198f4f5c0426</hash>
+        <hash alg="SHA3-256">38066e5d39c94ef8171a658229c4ddab5435d58b4792c56ee89b905260950125</hash>
+        <hash alg="SHA3-512">63924c17417ffe477546b5d8166209b4056274b144b09c1bf863e3b111b18459f86561d522607fc2f489a28c390dd23ffcf5f27a8ea2393f6a3306bdb97ed46e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlets@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-servlets</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-servlets</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty</group>
+      <name>jetty-util</name>
+      <version>12.0.3</version>
+      <description>Utility classes for Jetty</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">db5f983cdd55433216e07191f9727851</hash>
+        <hash alg="SHA-1">8ddd63424b855f9a6531a00db1a5cc3e414fb7a6</hash>
+        <hash alg="SHA-256">177fbbdc6b97f60f5c0527a77e4895c31d47a5a4151f90a7d01ae5c885d25636</hash>
+        <hash alg="SHA-512">28180f3977a98cd4445adbacf8671776f48f57e51eb17791e825c29878152c70b0805d1306efeeee2548b0405df44529dd67c4c0140dbe76366cdb13fda11d22</hash>
+        <hash alg="SHA-384">4f01c4e9f2a87b08d4330100d6f65f891e84214ad86a8cdb103e3ba1e6cfe5ef87dbe68af2a0f6bb23c35a0fcdaa2d2d</hash>
+        <hash alg="SHA3-384">ea77146089bc3893183319c0ec0267387782f64d9962402a01d6ce47c113699a68ae504cb59ff95dd64baaef6d4ccfdc</hash>
+        <hash alg="SHA3-256">dbfd0a67987970c49774db9c29221ae43663a318b621a2bbdb84992e80f0bf96</hash>
+        <hash alg="SHA3-512">49a0ca2df6dee713160cffb085a5fed9f912eb89331bb57620eb9b975a4c58419af66b70e85c8d576dd32fbe0b27023f462d736c65a94359e4f4fd930dd14af6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-core/jetty-util</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-core/jetty-util</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-apache-jsp@12.0.3?type=jar">
+      <publisher>Webtide</publisher>
+      <group>org.eclipse.jetty.ee8</group>
+      <name>jetty-ee8-apache-jsp</name>
+      <version>12.0.3</version>
+      <description>The Eclipse Jetty Project</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">0f6c3c5f6e9332f503755c61b62fa969</hash>
+        <hash alg="SHA-1">35d84c7946f7802d7a1ac2f50ec2694c17d9c720</hash>
+        <hash alg="SHA-256">a093977be1c60234b4913acba161ecf6cddd23477c2601d75901c97abc39a42e</hash>
+        <hash alg="SHA-512">e65e98162ae61988a559f68f1242291463f12d74011e9b3432fcc314c8276af6435428714cb4fb6397030bdf5b370279320cd7c525c84a996451c25e670f1c83</hash>
+        <hash alg="SHA-384">f9dfce771a1eba96c764a7f1f1a5e94f0ce841215b6719911afea36df417bffea4664cb8f9b1a3fa4b077df31a512bdb</hash>
+        <hash alg="SHA3-384">b2874481283818777784945e5e7fcdb905e9fed7b448b4b7268679ec638eeef30e4c6439e91b0d170abf83f02702e274</hash>
+        <hash alg="SHA3-256">f5c614c54e361819d6614ba24f998ae19d2266e2703a85c4188a350f00cad38c</hash>
+        <hash alg="SHA3-512">f233f6aa6abbdbb0fe30644e7d0a2e88876e1684799dbec8c594a541a1d8644a66aa9f218df38fe089076e6b313d9838e9137f86ddedb9fb576d69d90defb3c3</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-apache-jsp@12.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.dev/jetty/jetty-ee8/jetty-ee8-apache-jsp</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.project/issues</url></reference><reference type="mailing-list"><url>https://www.eclipse.org/lists/jetty-dev/</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.project/jetty-ee8/jetty-ee8-apache-jsp</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar">
+      <publisher>Mort Bay Consulting</publisher>
+      <group>org.eclipse.jetty.toolchain</group>
+      <name>jetty-servlet-api</name>
+      <version>4.0.6</version>
+      <description>The Eclipse Jetty Toolchain Parent</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d63413e02885c25d0129e3d2936606f6</hash>
+        <hash alg="SHA-1">959c5d83d08f5cddf56caff749e48b735193191b</hash>
+        <hash alg="SHA-256">d90bf1f8a9d2ba89f4510bb51e1516dcf94ef6dc034e00f233654abdd78f2210</hash>
+        <hash alg="SHA-512">758454d41cd0c08ec5b25c1e8ba7249fb11f753ea04c337614db9b99f2da9c1dd9a26bd0048aa6d1b95906d8aa67d0a9c719901b611d3017547adda9f7d4a289</hash>
+        <hash alg="SHA-384">6f5cdcc8b31399438db38ef510c30399f4c2e3058ed8c7d9a6d9a425303c31c3f6d41a16e5d9416ddc6e5ca95164b7e4</hash>
+        <hash alg="SHA3-384">f6c797c7ffe1fa8b7c68786718ae4f6e96a3a904cfb9ba3fe17c36cd2967796f6e1bc1ed09bc9dc2e74d1ade975526e9</hash>
+        <hash alg="SHA3-256">1a2f5f3b79a4881afac16b2cecca63f9a18bee4d7b2f0509001e265da8df353c</hash>
+        <hash alg="SHA3-512">443b85f02330d60eda46607dccd92e7f92bc5a3ebf85298ed0dcc28dea468acef800e854918c50300a4fe0fe42a111fb8ffb1be081e817a7a55dd353192f181a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-servlet-api</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.toolchain</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.toolchain/tree/master/jetty-servlet-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.mortbay.jasper/apache-jsp@9.0.52?type=jar">
+      <group>org.mortbay.jasper</group>
+      <name>apache-jsp</name>
+      <version>9.0.52</version>
+      <description>A rebundling of Apache Tomcat Jasper to remove the tomcat server dependencies,
+    so that the JSP engine can be used by the Eclipse Jetty project.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">3c9ec9c80f0ef4080f98978ead1150ad</hash>
+        <hash alg="SHA-1">68789993fcfee26317169cb41db33a2e6b8eec2f</hash>
+        <hash alg="SHA-256">b7f837e3ece11c4e8fb85125604175a6cb74333d1a7904189b7d1bc6422cfcfe</hash>
+        <hash alg="SHA-512">319322ee5eb20b0f7485bc5ea3895f300cc5e934cca6dc3c982c5ce86b6a1e01013cd81350beb3edfe685224d84834d0a8552e7369e0d474f288f657284b142f</hash>
+        <hash alg="SHA-384">743c9e09b9a178fc9f4509b63eec17323508b726d25f8040fd3174f874f0ce3beecba408931406f93d4d82730dc2dd18</hash>
+        <hash alg="SHA3-384">cbfe6a13148fc32b74ca05968c2349291dd5d95f117f6aea3a62f96dffc11095fd18d62a1b5dbdc3ae966465c5fb0bc5</hash>
+        <hash alg="SHA3-256">5e75c44184bf1376b979f7a6c01cdb3558f08e4ce179caf3a6ad86ebae0843c5</hash>
+        <hash alg="SHA3-512">587b15dbb0a750d6e9066c86bff31f13aee03fc18b6d4c3449f8b6f6ddf6e8422a9dc962bf3dffb7db2f4b97c68320f1818d3bb0b2d88953566cc4e3a4b63a9f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.mortbay.jasper/apache-jsp@9.0.52?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jetty-project/jasper-jsp/apache-jsp</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jetty-project/jasper-jsp/issues</url></reference><reference type="vcs"><url>https://github.com/jetty-project/jasper-jsp/apache-jsp</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@4.0.3?type=jar">
+      <publisher>Mort Bay Consulting</publisher>
+      <group>org.eclipse.jetty.toolchain</group>
+      <name>jetty-schemas</name>
+      <version>4.0.3</version>
+      <description>The Eclipse Jetty Toolchain Parent</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">9c02c8f9d67a27b510f11f91d8eea169</hash>
+        <hash alg="SHA-1">409a06afdc9cbc11e5c057e9dd06f65fe6007f72</hash>
+        <hash alg="SHA-256">37a025ab3dad4435e290d838f12a622c06705e7429909519245efd280a4f5952</hash>
+        <hash alg="SHA-512">42936b3bf634546a8575c0c0f5b38f553d6d30ad0658e7d0598f7ed18f6cfbcfd740c28bbe45d6a7e62a5b61179af049a4de60d38e63eb714470bde6c3d2202f</hash>
+        <hash alg="SHA-384">a344ed60459367f888ab0e7c268db96b96959db84ada9fd0539576662c93ba561798b049771d4b2acc923ca9edbfaac8</hash>
+        <hash alg="SHA3-384">0ec125dcdd076b6da73ff18e428a9e0c64458a95d069d436b72b275b6ec8f5f832dce0bcb6912e3294372fbad6016ab4</hash>
+        <hash alg="SHA3-256">3616f84b2d8b72dadad3418841ce5fef3a06356e9b1b90e41faa7b104f5a7d03</hash>
+        <hash alg="SHA3-512">9491ca4f573ba3c18eca7d42664a21efeecd1640cb4cbd91ac55e969e2d09ee6457f3cf097c73caf4b7d1b457ef9e334856bf86c7675fc4efa812ac265e81fcb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@4.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse.org/jetty/jetty-schemas</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse/jetty.toolchain</url></reference><reference type="mailing-list"><url>http://dev.eclipse.org/mhonarc/lists/jetty-dev/maillist.html</url></reference><reference type="vcs"><url>https://github.com/eclipse/jetty.toolchain/tree/master/jetty-schemas</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.mortbay.jasper/apache-el@9.0.52?type=jar">
+      <group>org.mortbay.jasper</group>
+      <name>apache-el</name>
+      <version>9.0.52</version>
+      <description>A rebundling of Apache Tomcat Jasper to remove the tomcat server dependencies,
+    so that the JSP engine can be used by the Eclipse Jetty project.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">2dd281eeac02d706363e184fd9b1b4b7</hash>
+        <hash alg="SHA-1">aee292582ce4e33de7ce90f4febf2ade3dd5aeeb</hash>
+        <hash alg="SHA-256">bf32bee824aca5283991a89f8196245fd5307c614c06b25ae409866e0b543ebd</hash>
+        <hash alg="SHA-512">6810d991d54757040b53d8f0d8a677089d34a55630edf947199b82ad23be24088dc04baab023d3b3352c90b04f374526b43c578dad567a740e1436eb21b0fdbd</hash>
+        <hash alg="SHA-384">cd301c7149b8b9fcd0372ae3512ed2ae91eca8b9e833cfedc6da894718300ffe6095095a525cd19ecd66c0db22b2c486</hash>
+        <hash alg="SHA3-384">dcb9006e67640e04ffa6b5eac3b48e02d20c56b9721772b5079c663bf4680ad9794d54c9c530cb8e75a79e8e56d1711b</hash>
+        <hash alg="SHA3-256">92a90ae64884bfa5f1c13669d7cd27e8b1d3fed20f91cf30e03c08b90c8d7674</hash>
+        <hash alg="SHA3-512">878ce59acb9772516713cdbf6a04970708dbda5852258bae40a8a8039311c74b96ab63f9576a6849e4b06b61d1fcbd4ad01d4d3e4a0d73a5977f30b06a68cf3f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.mortbay.jasper/apache-el@9.0.52?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jetty-project/jasper-jsp/apache-el</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jetty-project/jasper-jsp/issues</url></reference><reference type="vcs"><url>https://github.com/jetty-project/jasper-jsp/apache-el</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.eclipse.jdt</group>
+      <name>ecj</name>
+      <version>3.26.0</version>
+      <description>Eclipse Compiler for Java(TM)</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ee47966a67cd4019f1b8ccac74ba8dca</hash>
+        <hash alg="SHA-1">4837be609a3368a0f7e7cf0dc1bdbc7fe94993de</hash>
+        <hash alg="SHA-256">ac0ba5876eaf7ebb47749a0d1be179c51f194b9dd0b875d1c09e1b530f5a2db5</hash>
+        <hash alg="SHA-512">ab441acf5551a7dc81c353eaccb3b3df9e89a48987294d19e39acdb83a5b640fcdff7414cee29f5b96eaa8826647f1d5323e185018fe33a64c402d69c73c9158</hash>
+        <hash alg="SHA-384">76bf79551b97376295fba7b14215465a7a2c2fae4db5750d9aa59049f104538ee62f0b59f63c38042c5d913d289e773e</hash>
+        <hash alg="SHA3-384">24fd84e23f261915e179efb0582934579091073c2693bf59de2c4b57935ceb32f85cdc5aca358b60bedb354540b82e30</hash>
+        <hash alg="SHA3-256">07e6047a735f056ab396880274a861aec7c360cc6e7aacb4b9e1022f66942e21</hash>
+        <hash alg="SHA3-512">b82e30b5b14452c420ee60f9a9933d6f131117c0535c0dd6194293cc7b0b9fb5e7ea3b9f3650a88e7a1d903ba14966dfbd1aaa868c2a6891f1900653b21c06d6</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.eclipse.org/jdt</url></reference><reference type="issue-tracker"><url>https://bugs.eclipse.org/</url></reference><reference type="vcs"><url>https://git.eclipse.org/c/jdt/eclipse.jdt.core.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>org.slf4j</group>
+      <name>slf4j-api</name>
+      <version>2.0.9</version>
+      <description>The slf4j API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">45630e54b0f0ac2b3c80462515ad8fda</hash>
+        <hash alg="SHA-1">7cf2726fdcfbc8610f9a71fb3ed639871f315340</hash>
+        <hash alg="SHA-256">0818930dc8d7debb403204611691da58e49d42c50b6ffcfdce02dadb7c3c2b6c</hash>
+        <hash alg="SHA-512">069e6ddce79617e37d61758120c7e68348ee62f255781948937f7bec3058e46244026d7f6a11e90fbc15cd4288c4bb1acee4f242af521c721a9e68a05e64d526</hash>
+        <hash alg="SHA-384">fd6f7ad85d02ac63cd1a586c8bb158c1fc000495f512f097731ea9f749b5da2637615b821294962805ba312c738f40aa</hash>
+        <hash alg="SHA3-384">17cd61f59a162250b52a89c7c56eb60da253b776210500313c7b82744483ff84717946f969251fb4d76f9bb12a2458fe</hash>
+        <hash alg="SHA3-256">9dcb04582c64c79e788f9191195834ec75bb3457133d22a176a0ccb069b97103</hash>
+        <hash alg="SHA3-512">990faffa454598a3fa82affe30f1323db769d2e1fff20d9c7163ef6fd95ac7a0874c06a634207a2eaed9e5afbdee68b225138fc75018717ba97efe3ffe92c88a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>ch.qos.logback</group>
+      <name>logback-core</name>
+      <version>1.4.11</version>
+      <description>logback-core module</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d71bee74f4ae2864c7b68fc8212b8a66</hash>
+        <hash alg="SHA-1">2f9f280219a9922a74200eaf7138c4c17fb87c0f</hash>
+        <hash alg="SHA-256">37ee7367bd24ca87ef77430119a1cb814a76b240afab5c17f802ea383f58aca1</hash>
+        <hash alg="SHA-512">d429a0052093f2fc65ca93cc26f07f1e7ef2999051d8b187b286d2257f631171217bc1521ad56226bec8c525e99a2cd030a1eb6185d8a6648f9896951a8cac97</hash>
+        <hash alg="SHA-384">fda95c8f64dd66ae107bfbf0f2f68487a6851fb684a2a35388036227fddbff250733cf480e4b3f8c7b56550a002224f7</hash>
+        <hash alg="SHA3-384">fa0e5d041eae894061f43c6c13001ddf2e068bdb6a93bc76f540079a7a014205ca009265ffd54a52e2ca6cadb498e10c</hash>
+        <hash alg="SHA3-256">3c7af57a3c6d4bb144962a71c38ee633553dfa29830c809d25a8ba8e39d47beb</hash>
+        <hash alg="SHA3-512">a6b7cd70b2d7c0f15aa284aa558ec6703c633a51d2274f86757d436947d9493b8909779a031b331c2cda46bb13847ea977213a29f1bfe89c6112ea1e106d3c03</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/logback/logback-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar">
+      <publisher>QOS.ch</publisher>
+      <group>ch.qos.logback</group>
+      <name>logback-classic</name>
+      <version>1.4.11</version>
+      <description>logback-classic module</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">a6a09da5f4d40cf80bedcf7a6a0d35b2</hash>
+        <hash alg="SHA-1">54450c0c783e896a1a6d88c043bd2f1daba1c382</hash>
+        <hash alg="SHA-256">05850fca185dfa652969ed1e3864e365c0d724737a0f4ec68574baad1d855a0e</hash>
+        <hash alg="SHA-512">8d368d3a1472075aa99e14b3505f5c66035fdc54c2801846ee168fe035e0e4cfad32283ccbcce8a3b1ad8aeb84f8698d2a012733f81565c4c903c1d79b202a72</hash>
+        <hash alg="SHA-384">63e2396608f173878c9f16aff4a12bbb2ce39f5eef71f130959c7fbcc7c85d002d874dff55e335d9bd26a016ae875769</hash>
+        <hash alg="SHA3-384">2ca13888b6bd36cf1f88e636beec425df7d95943598160cae0ee8d8fc000332e73628ee16d961c0b44df500a62bfd44e</hash>
+        <hash alg="SHA3-256">d45345cc5f31df4e2481b84c8e71adbf51458a4fe627d9b2928f8daa18a25bf8</hash>
+        <hash alg="SHA3-512">50258690bd98fe3958593b9f6feaebf880e308d317f58f332d683e003c210bbc277ee526f675599f4014c81e40b7bf06327cc8c91b25cba4a8018efe022ed8ea</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+        </license>
+        <license>
+          <name>GNU Lesser General Public License</name>
+          <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-classic</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/logback/logback-classic</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/cloud.tamacat2/tamacat2-jetty-ee8@2.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-webapp@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlets@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-apache-jsp@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar">
+      <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.2.3?type=jar"/>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar"/>
+    <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar">
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.4.11?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-webapp@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-xml@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlet@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-xml@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlet@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-nested@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-security@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-nested@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-security@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-session@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-security@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty/jetty-session@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-server@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar"/>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-security@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-nested@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-servlets@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-http@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-io@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.ee8/jetty-ee8-apache-jsp@12.0.3?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty/jetty-util@12.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-servlet-api@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.mortbay.jasper/apache-jsp@9.0.52?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.mortbay.jasper/apache-jsp@9.0.52?type=jar">
+      <dependency ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@4.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.mortbay.jasper/apache-el@9.0.52?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.eclipse.jetty.toolchain/jetty-schemas@4.0.3?type=jar"/>
+    <dependency ref="pkg:maven/org.mortbay.jasper/apache-el@9.0.52?type=jar"/>
+    <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
+  </dependencies>
+</bom>

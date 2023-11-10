@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>cloud.tamacat2</groupId>
+  <artifactId>tamacat2</artifactId>
+  <versioning>
+    <lastUpdated>20231110134717</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>cyclonedx</classifier>
+        <extension>json</extension>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20231110134717</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>cyclonedx</classifier>
+        <extension>xml</extension>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20231110134717</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0-SNAPSHOT</value>
+        <updated>20231110134717</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>2.0-SNAPSHOT</version>
+</metadata>
