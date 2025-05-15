@@ -20,7 +20,7 @@
   </licenses>
 
   <properties>
-    <helidon-microprofile.version>3.2.3</helidon-microprofile.version>
+    <helidon-microprofile.version>4.2.2</helidon-microprofile.version>
   </properties>
   
   <dependencies>
@@ -35,6 +35,11 @@
       <artifactId>helidon-microprofile-server</artifactId>
       <version>${helidon-microprofile.version}</version>
     </dependency>
+    <dependency>
+      <groupId>io.helidon.microprofile.bundles</groupId>
+      <artifactId>helidon-microprofile</artifactId>
+      <version>${helidon-microprofile.version}</version>
+    </dependency>
   </dependencies>
   
   <build>
@@ -42,7 +47,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.4.2</version>
         <configuration>
           <archive>
             <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
@@ -64,15 +69,15 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>3.5.0</version>
+        <version>3.7.1</version>
         <configuration>
-          <finalName>tamacat2-httpd-${project.version}</finalName>
+          <finalName>tamacat2-helidon-${project.version}</finalName>
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>cloud.tamacat2.httpd.WevServer</mainClass>
+              <mainClass>cloud.tamacat2.mp.MicroProfileServer</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -89,10 +94,10 @@
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>jib-maven-plugin</artifactId>
-        <version>3.3.1</version>
+        <version>3.4.3</version>
         <configuration>
           <from>
-            <image>gcr.io/distroless/java17</image>
+            <image>gcr.io/distroless/java21</image>
           </from>
           <to>
             <image>tamacat/tamacat2-httpd</image>
@@ -105,7 +110,7 @@
             <jvmFlags>
               <jvmFlag>-Dserver.home=/usr/local/tamacat2</jvmFlag>
             </jvmFlags>
-            <mainClass>cloud.tamacat2.httpd.WebServer</mainClass>
+            <mainClass>cloud.tamacat2.mp.MicroProfileServer</mainClass>
             <appRoot>/usr/local/tamacat2</appRoot>
             <!--
             <args>

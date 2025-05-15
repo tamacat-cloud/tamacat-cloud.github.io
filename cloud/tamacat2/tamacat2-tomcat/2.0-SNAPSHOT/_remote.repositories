@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Nov 10 22:48:36 JST 2023
+#Fri May 16 00:02:59 JST 2025
 tamacat2-tomcat-2.0-SNAPSHOT-cyclonedx.json>=
 tamacat2-tomcat-2.0-SNAPSHOT-cyclonedx.xml>=
 tamacat2-tomcat-2.0-SNAPSHOT-jar-with-dependencies.jar>=
