@@ -1,0 +1,3328 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.5",
+  "serialNumber" : "urn:uuid:e3fc20ac-3f2b-3043-87aa-f0132015e909",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-10-01T19:01:50Z",
+    "lifecycles" : [
+      {
+        "phase" : "build"
+      }
+    ],
+    "tools" : {
+      "components" : [
+        {
+          "author" : "OWASP Foundation",
+          "group" : "org.cyclonedx",
+          "name" : "cyclonedx-maven-plugin",
+          "version" : "2.8.1",
+          "description" : "CycloneDX Maven plugin",
+          "hashes" : [
+            {
+              "alg" : "MD5",
+              "content" : "42c73e70d517b359d40b757c368d68fc"
+            },
+            {
+              "alg" : "SHA-1",
+              "content" : "c66892e13fb7ed7b8105cb5a280fa767d9e0bf12"
+            },
+            {
+              "alg" : "SHA-256",
+              "content" : "566681b9fcb1b0178e101cd899d2ea399e2039255e208a1a477bc079158dbdc5"
+            },
+            {
+              "alg" : "SHA-512",
+              "content" : "93d7b7421ee2d91f84930e75a52864952f26fee96114740dab477ee5f0e62b6448759ad5a160f1749650379f771941100c7fd84ed523b2407d2004b928998ecb"
+            },
+            {
+              "alg" : "SHA-384",
+              "content" : "04b0c71c1b79f77e723e7db96c72705f50172e94df5a7f28edbd96024b886fff65f61f37fc77abb1d12b0809813ae665"
+            },
+            {
+              "alg" : "SHA3-384",
+              "content" : "eafa68c2c25670f0b77c5db3acdfd97cfe97dfc50c47bba2103353327b049b9bbac0d8b621b1168200ddf21719048c73"
+            },
+            {
+              "alg" : "SHA3-256",
+              "content" : "2c07b6997ba0e40ca3b66e39cfcf101fcebdceaa19fce0baf12e013cf392466e"
+            },
+            {
+              "alg" : "SHA3-512",
+              "content" : "636f068843bad92259885cd4d427630619864c0172bd1b41df15c33a7d411767ab09cf2ff339a97fda149ee44c95a162fdf6cb12de19e2dc0250c2fadc80d882"
+            }
+          ],
+          "type" : "library"
+        }
+      ]
+    },
+    "component" : {
+      "group" : "cloud.tamacat2",
+      "name" : "tamacat2-helidon-se",
+      "version" : "2.0-SNAPSHOT",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/cloud.tamacat2/tamacat2-helidon-se@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://tamacat.cloud/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/tamacat-cloud/tamacat2.git/tamacat2-helidon-se"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/cloud.tamacat2/tamacat2-helidon-se@2.0-SNAPSHOT?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "group" : "cloud.tamacat2",
+      "name" : "tamacat2-reverse",
+      "version" : "2.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8065b7bb51bf5c8f0f2f3bc232129c6c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "05d1f307cc31d82a23800f6b9162a0332944b851"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a7f70042a17f8f8ced1bebaebe7c50c80fc82f4cece17b0c3f50e27911eab71e"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d64f251833b6f5f0669b7157c169784a8b69e45b6053035cd36fb3b183743f3ab7a6b8d25d91aaf4096ddfa098159c879c6714aa4708c615572e90f5a717cfba"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a9705a1b2e9bd8caafbf2baa0e5683557fd3c321830a208e7147caf6f0628bfc14d57db3770f2d440072befbb0d3c823"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "1bc2cf7e08135be0265b55fa3ed993d2bd1571519a3213ce33d0efe18c99f544f72220db23b2018435c7d1c0bbcc1385"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fa676313cf05df1fb42657a324740ad0b05df4534f077d0177e82de01b348e42"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e0865d221dcd33b5d9fd97d9bd73d6dac37a95fe0136c4905ba4a8d538684704f5948c3a042eedadacea3dffc5d44b0fdaa9648c098f6692d56a92c97265756a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://tamacat.cloud/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/tamacat-cloud/tamacat2.git/tamacat2-reverse"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "group" : "cloud.tamacat2",
+      "name" : "tamacat2-httpd",
+      "version" : "2.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cd7ce47a8253b48b4e3adccce98164f1"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9cc7904b660bd53d927dc29b0878ba73a19eae2c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cddfbbc048459f2340482578f55bd3950d501cb0d28f4da2df1edd41cb08f1c7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7fc0fe027df945a8d5e229f908957737975b01b968c7ba086b68fdd2161ed511f5310a66c11822c90c0000957dd12461ae567476f9c1222f05f4fdffb5db1563"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7d2aa8b4d98a48ee07039f96f7900712bed8437f9ede8fab338c260f139615408e3944042596f0ea5fc63710bee15d94"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c88d87c9413865897dfda6700f80b538893d193c093938bbe132bd057b4d2878ba6f326d2d9c785ef2eb2e311beda5b0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b0d9882b7f402defdfd5fd6e1f5d8b58cca5eba83bfe3d8e444aeb7a7d6b7707"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "292ac823201f6b5af0b336c0b248e45ac8ce900d4d380ad363af0e0fbd7e23796f5cd5af2e7043573fd996a5bf45c204d536af67febbb1595a28e58acf1ad9ba"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://tamacat.cloud/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/tamacat-cloud/tamacat2.git/tamacat2-httpd"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.httpcomponents.core5",
+      "name" : "httpcore5",
+      "version" : "5.3.6",
+      "description" : "Apache HttpComponents HTTP/1.1 core components",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ddf45aa72b3c500fcd277cf75fcc1732"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2c7f0d11747f9485a02c9f622c0f0477d7ce8677"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8fb4528d3e970aca440523a1bd698a389fa710ecfea4c5c6096698b86d1669ce"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a1f1f25498521bbe9df9fef8e43b86b9b709c40db2037bd9ff7a4a34b58cfdf8fd1e2595d3652eb5692c150ac638087c66535c1f4aa4a23d6f2273d4186372ef"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "975154449c95efaa8e3a0ff2d29a4aebbf46d55af571975b23fecc0901354aa7572cf91849f3937a390d3e0bbcadb4b4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "47f654cacce5ffbce2f46793295357862894aefcc404960f805854dbb503dabf665f7dbc8d8baad2a042d009c8b37cac"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "75c8d503ab4878b182aa1a1a04a78e2fd2cbc3cf5008f8aff8560e5331eb21c8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8f6bfc94d08af1a555ed2fd8c4d86055e6a04c44334f980ec38fffe15dbffe3a593d793288b39719a46abd8226092577f990a47ae7cc7a77b20273bc35f23a49"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://hc.apache.org/httpcomponents-core-5.3.x/5.3.6/httpcore5/"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/HTTPCORE"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?httpclient-users@hc.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/httpcomponents-core/tree/5.3.6/httpcore5"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.webserver",
+      "name" : "helidon-webserver",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4bea8f5d9931d13a2ad76685af6d39ed"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "afbf9da62e6df7a38d63fd1ddf29ad81531f200c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ac7506f831972b7e14eab6c8f886ffb0a7fdefdb6328eec67f8592d687d1dbb1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "31da860364527e9e360898630c45ad0d109005769c97f23c80fd8fa514d9dfa34254d272b75f8a9b1e7c9e13889a8d33d69ffe68584934967a4e4f05c1d27c54"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4275628e5960003da594ebe765dd2f5fef9d316bf91acf1c5700f651f8e34f20e2c127e796eaead4649f6a138e6f8ca2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b5de468db47c4471bdad2a0e0299967a14880eca5f20a2fb1050b5f52e2fb2ce1fa5bc05f4001d93ca377249f2c686ee"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d196dbba87f25c2903c10c2bf2f2ef4e2112d056843551acd953498df807ca71"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3372a5858de5d1279f2d1d9203c256504d7e699d13b2ee276e1e64b1ac0de219ef45714a1646a980ba54cf5c4c29c2b1745d0e31642393f18732a19836f1f354"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.webserver/helidon-webserver@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-webserver-project/helidon-webserver"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-webserver-project/helidon-webserver"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.webserver/helidon-webserver@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon",
+      "name" : "helidon",
+      "version" : "4.2.7",
+      "description" : "Helidon main entry point",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a57abb1d3e4580aa90aead204d40633e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "582a3645d0eec64a8fd548988d7840e2272f0d82"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "533e87c3d698ea15e7b79e3b6cd8448155ea62cd2bfbe617779340b318bb81c8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b5e411ab291d38db6c7dab25413dc175b7a9f39da0f6513fa985c589f844e396bc38899dcf9b7982b61349ee380506389f82389ddfb0e4d356e1186f79950e40"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3cbb9c36b3a00f54d4dd68ed6fa4f102df3a22bfc8810cf229ee444e9839d698d9c23f7514c74630384f62b80c12e5e5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e5bf6c3a8537717048d784ac6e2fa75b027501af2d7e67568ccf154d1b13b65402b61c0c182df79b501b4bd44c5e5bf5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6883f5c220021f82a4b46f5f95083c4b47d940f549c9972663a78bfff2e11448"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "866d6f1c72f49c6688cc946412ed783fffbd06c801a3991fcf78ccfe4fcabbc880ed4b3b77b8627de349e46bfd358eb298fb314fd3b2c63c6b9be41bab35565e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon/helidon@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon/helidon@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d55bdcc2766ef0a62fed43a63e870a48"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f7ff32fd77ff1b4f8663fedae2967f85d5cb5ba5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6a76b6f0e94e50f937a49339b2d2e1dcbdb24290aacdc21f161f1f587a4c83b6"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "74aa75cd4ce5a51aafdc7d5fe726dffe593ab64e6819bbf97c2f61cfa7398a6f318cc2737d4cf411083788544b293e72591e6dcff5b30d56bc817fbb1f8709e1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "79b82d6ab25dd0e0e718b34b2635791e0c2d7c3b7a1112a07a3b854aa4c9148948e475c4fb93100e9b2d6605f3cca8ab"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c59c1d81a7649802141553630f7e063462c1eb042c50487e98552917e77632d09107d6fbf315fda56d861e68ae02dde4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "18cdc00374b711bbdcce09f0517e3e60ce5d33dc0022d79cec520a74de01db7f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a377bb696f78a6c8b763bcb7ff619539f40de1d6d1a1d7e3528a702ddfd1b420d8e15cf31f75697976530f3b6224b557905c15efda17299f36a94346c9a16923"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.http",
+      "name" : "helidon-http",
+      "version" : "4.2.7",
+      "description" : "HTTP primitives for client and server",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ef1aeb0a05369fcabae60550a0421837"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "83624afc5afae6361cb32bd95be6cb7ceaa7649e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b91e5c5b6dd318dc3e5b5c33f77d5e2e163c97761d697cc97a2336b2903ec1cb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3f251e9e2893902a6b1b485bb2f44346ea55d883139320efa5369138eeefb90de71865b71c7ae507867ea86c4e4dda60cc01bcaefc25681fed1509b7bcf58e8e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e589b18596e2556962a33529927acba458ae8182d4c73cfcabc1a7cd3a0b599e21a794887c88dd3f22f3de7a5e3c4846"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "09b407689ec5c23f49cc4338286b30acf1c689537939bd524b7ec8507a69e0017956533d5a91bfd35265e94c010149dd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "35e0e60cfea3d4ff5c4e2674d5e349a6ee99d815b75c0719ff521b92b4ab2f9d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "11b4075feb00033039afe33a940a7c04795eddc4a0937f97cf7f41256be18497f5b177948ce2095f600748411352b957f30eca467468c604f615c48991885640"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-configurable",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3a244aa7e6fd82cafb20bff1dd5030f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bb7a3419c686bd538fbbd1dd975a1eb922a5fec4"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "da25e9e3a6270be361fb5921424806347426354ff493cb282ac02be3a608a4cc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "116804b8feea460a9e9a33ada7c49b4cc9e1b182964365e20e9ac64abf7a5bd7c5220bc623859264f81432220fc3546108061d2d9ffd98a30eee3ffc621c225b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ccff24c27fd1c7d374d53abda1a8235dde5f7ab8fa1f215f2f55cd71fdf91845a9b6da43a6d183d5bfe38c1002a45152"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ffe515718637188482c03885f7b466e25b2f340052f8ea526217fc6ce48bf6358d78ca06a1dd306ca1f11ebbd4cd8bfb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3313bb149237a545effe11acd50b6d3615b5d65c5d5b5bbb35d9dde2e11c4872"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "17851abb941a50ab4896dfb2466077ffdc47660c04883f91019efca83ce2b96c6f6dfcd5fea7e699e8a4183ef82b6f96603f8dc3e3aaa7e132225bf397bb446a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-configurable@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-configurable"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-configurable"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-configurable@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-buffers",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7f28c714c265c0f6dc88f2d695e3d329"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f9bed6de664b36d81e0555cac5e7fbb04e9106e7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6da6fe48b823a5a8429b03ce7391f8a016a2610fa9c24c5b78735ef4ce2cd2e8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "783253efbd8eee727be861e8b0e82f95a1377464ea6ca498208dcd5b059be837ad0306c0c931e9b25bb9f77d2399961b98b688b5d148939f21525aeabddd227f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d2e05f6eea0f518a02887431a3dbc150407f03990d7d45f3c4d6f107aa566744071a12fd3bdab543ce9f21f523149189"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "44ebe30ec40daf9b97945142f43e4531b1a868bcb23662d5099ff2bce2084d6c6a2494a354b0c1a1ad83ec100ebe41a2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5bc12f1c63360ce1d0876e0202a7944d164ca283c436d64fe6d27889aec12ab2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "55f8857d51b4997a75fb32bb8572ffb36e2e0bd1ea10086bcf3396e81a96ec7d9a9abc505a912d1374f9c06066b672c4c39f6a942aa8e6554eccc0aba36061f1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-buffers"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-buffers"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-mapper",
+      "version" : "4.2.7",
+      "description" : "A generic mapper to convert types.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "03e77429341f3689c04a2be97a9d50f0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7e60714982820076afdfacd799752fd2af53a7da"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d1cb8840d9aeec6d80d6070fe50d40e4917e89735ac5848aa44c19f0dd5c814a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a86bddddc5c65525d294ddc97b508aba9fb058b42ab2441757b79cba719e59bf28c1fd4255f1a9bc9c72758b99d98dc9d4c6440c0d38b503b248b3edec4f29ff"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c9eed4257957b95e3befca8b592ddeeb5c341aedf78fc0fd72dee60bc3a45a59f96a09aac585c4228f66342991908499"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "74a330da942e235437b787c8b754a72ddef412377ea3d51e4402b6ed1a5a8578371487513a39db9aa873a23b2c321ced"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "286b2a29d9d3ffe810dd7a4d8117e379476b7607fac18afaaf5f39149496f214"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "87a5f0dfc6ff6f4eda4e97236b403b0ba478b88729491b6edebc66a5e55ea245115b3f9387a9583b57f4fb2ea5fff8b25b9d35333f1558681371242c897fe49c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-mapper"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-mapper"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.service",
+      "name" : "helidon-service-registry",
+      "version" : "4.2.7",
+      "description" : "Service registry (a replacement for service loader that allows dependencies on other services), and API necessary to declare services.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "de1e2c9f815b8c48752ba5fa93b6f8a0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0ef99ad79351f8aeace1c5ad62e0970e7bc317fe"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bfa49315798061e90cf341f35a20d8e1c100cdc29fe23ebc1bba3914b2f65594"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d2d5078fdeb10946c0e80fb11d8405f8a2454f9075bf3ad77cfad595ca53d62e3db481abe525252532f522d5947faefc6049717c4aed40183d01156f42646e05"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ceb982cd925d457a900c67a5523fe56fada2d67c5024446b673ba1744a7edfb8014398bce714df24b79f2765c37880cb"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cda64fbac52b2055d72a1bf88fa123517be3a43ae2e50e15ada1893e4363179ba30137bcbf73f63278ffdf16db35536c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6543ef7b2bab4759af941d0997171159b5c476d4e55f7c68fe64537fde340cfd"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bb4b25c09d25ea60c575c00fb29645629f595a3364311377643d125e2901d7adbe81208b3152b5de8cb43d5ec3121556a604ee2cb33f988fe5f5d26aa34b358b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-service-project/helidon-service-registry"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-service-project/helidon-service-registry"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.metadata",
+      "name" : "helidon-metadata-hson",
+      "version" : "4.2.7",
+      "description" : "Helidon format for metadata (HSON) - a simplified JSON.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9d1008ece26ce482643331dab8e9e350"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e365e5790d32c34daef7890e72e0eb1f342526f7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bae26f2fee8362fe98ef4dd2f68ca08d9ae7757b13db7fa5f32c85c5932bdc2d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "35548bb4d46a51937c6c418f0e7373f3a216acdd950ed663e106f31a6f0cc0b0f48cf2276abd150223322140d531ad6dc5fa6812e640ba030d19ee722b15454f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7478abc3c0c5722fa9b6376244ddf4328b7ab0db76185585fdb6ccfbb11367fb0a4c3c21e9468df5ac29c1223f46520b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "03d2a0776d29ee36c98a5b0a383baf40e4fc84bc448328ca928ed70f9cb5ec40a5be44b98bca2ba16047d8a90fef55cf"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "64827b7c33c951cd9bcca7896962047d45d8607d49b5ccc8ce8c246ed532b76b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7d61b6f2a8bea9f1334db498a8700a89a885971aa864215c708e3c2d39043a0ee4f7c46a626054c91f34b9f916469e7fd591b6b72421499899effdb11fc26c96"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.metadata/helidon-metadata-hson@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-metadata-project/helidon-metadata-hson"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-metadata-project/helidon-metadata-hson"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.metadata/helidon-metadata-hson@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.service",
+      "name" : "helidon-service-metadata",
+      "version" : "4.2.7",
+      "description" : "Metadata library to read and write service registry information.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "707920560a36da19d486088d0410d859"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d68bc45cc11b461c331db259637b72e520df2f88"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "debeb7431ebc6fecd6dbfa49d881d22818dce05ef507bfd2b38825e8e7ea7493"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "03ed78aa09470510c735f4ffaae41911e946da601e5d8211f388e4917f81b4807a9ec9dbf18dfabc74f28dc5fa2e1b77b735b2e235fe2de1a407596f79036421"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "29b780932385272cc49e5778f83d8bde8ba8aa637f69de587a6178e4213596172df605dbcc76cfd8f35797f534381fb2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "814c74024273ac772a0e9c45145f86dc43eafbb0afcbbf0790098312d90477ae2a7e61c02322e65272ed74bd080d015a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f6fa38d5c96a2fcc23c5cbb35a02e578eb2389107fa23cb09178c801771fd3c3"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "99d81279f22ab4356e9ba06f1baca4212a7c3bb3a522fe9db42502d5dd865b60d16e5ef2a5ca3a755b39b9dac229cfc12812cf697b35d408fcaab89019350116"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.service/helidon-service-metadata@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-service-project/helidon-service-metadata"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-service-project/helidon-service-metadata"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.service/helidon-service-metadata@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-types",
+      "version" : "4.2.7",
+      "description" : "Abstraction of language types, that can be used during annotation processing and at runtime instead of reflection.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c27463c45b2203463563004584508010"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "cc818ad85bf225b30b9734ba6cf924cbf772d8ef"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "80fa417c1f6b595c7c2c6a321eec8b35901cfeb72f7f2a7ceab3d42f7d0bd82c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4b394ceead233f04ff9bcedc2b2d2fe8cc5fdaa4924e031d1999b75bdf7d9a56e911259d26f14651ad73ee2bcc2fa3bbdd13a1e0e4350beb128b997367101e78"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "73be63d9231deb921cd3b40ebf3dbcfa6a57283e683fffc73dba82ddc5cc0846c518bf56ea7eb1706e3ff4e8001ed516"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fa435a7ac40d4f4e485a96e42b4fb6bba0a24f39ee1d1a8c2e3a722b11282b607d4691fa5a1b94d86a63e9481535192d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b1fb55e501b3951a19f435a53ba869977efdb11a1e8c625c8f7e4eedd0de7967"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "84e1b5c0da8ed9baf368397d7991f9c9128544701684ed8820739c6b433ec1ee684e1de22bbc2ae60ff8a37067515cbc7d7105a906bea79209289ebb58fa0e58"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-types"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-types"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-media-type",
+      "version" : "4.2.7",
+      "description" : "Media type support (usable both for files and for HTTP)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f43598f916a93eac5570b669816c4956"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8f18dc0dc97589a5a227db2b0513fe4473a4d6b1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "841c936aebfe6665ebe60d1a6f0df30f809fc36d29b7f03d2b0e51096fb49e87"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f7ead65b23315f3be4fe52f4bf4deb6524c292e24e17dffadfdab9cc91a86f33984a19eba9420f0e0b3d45c59ce619e3e3882da212c224f0f359fd1280ce1381"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0c96a91b08f3d8bbe04f30f17313ed89b7b647f2aad62ff21ca2a11b2e34ed17734e53d9ffed32e1d2b5a67ec801e52e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ce6ae1fcba79f56a7518eff0f5d4fa008996644b5757633a2dfb8ce73f12921baa582ea499de571ce77856d53bcedf9c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5367bab38e8929f668983f99175f9249f7510afd80a3dd91dc5939093a624056"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "638042345f78a32a99647fcc70e9158ffb4d1db21830f77544bba98991ea620bc5d861f2dd6ed049dcb157b8ff54bf5b0655917cc31066ddf65ad4c5b34a76a2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-media-type@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-media-type"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-media-type"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-media-type@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-uri",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9d19d961f4ec7992c871972d07d69564"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "73118ae6a99994fad066237608f8dd511bdd4fb9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "de37bb8c45e1a2c1d93e142d70cb29a8a973276ae392fcc5dbabdc629e62e5a1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9284d22bcd93ce0bd3510919b7a8a46a8ad847d5cd0ce6afc2156444d8ded86c628a59cc8028198df87568d092e3b51ec2777218a16cd145ef859b87eb8fe56c"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d59f0b23dfd31d97b53be7186aabb116113d2157682828f9704d3af3eac1606fc1f6651ddaecfc2ad8cfcfa6cce243fc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fff294d8f61535d2545a6540164d12e90d8f550a348e497b1c5bf7f49a1ec4788d3caf723f1ed6911c3df1159b813ca2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c94622a5441708c2613b9598c38909a2c839329f1d9cd07f9e8e734462d1cad6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7de11c21040436f93ea6a73d7f8df7d02b32c95687b54de0b2fb2444353f7bfbbab3b703337f9b9966e2dd7843484a45b0b93a6714e632028a62c7ab5e86b75a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-uri"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-uri"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-parameters",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "de1e8a18d08bcd9648c50bbae514765a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1cc7b37d0049d87b2c68669f5852f227a12a0010"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c4f09da27f0da4de2fcd5b06045ef8628372719c4a3522247c1c7e64100db537"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "64ac5b9bf0f21b44d5de55816c805ffe19b47883eabc116f618dc9aed14fdf726b534de8c17ab512024317eb2f479ff63bb9fb548fa03a32a1e8882be1e907d8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5afec16745a21e03c36ab0b5d83c256f8439a13c1073c9a9d765ff8eb7bba28d7987f6db3b3ef1731fea93ff37c4c031"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "636f05ed0f997cf0eedd9f928a27205e207bae4aa32a426330f5a2c04363c1d81f952d0cb8f82bcf04b5114ed219ce45"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c3e6fdf67f888dcd90b08154690f68dee3d47cf3546ae6e547593d0b2de0cd21"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5b99dc3d358136d564ec821dee26c97669b24825c0bf07b708e8f8b6c5c7a7c1a5d7068f8653e5a2f2679607b4ea8068d12997b2028767c10477331026130179"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-parameters@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-parameters"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-parameters"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-parameters@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-socket",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "83da28a4aa4707fd56650aed5b2aca6c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "74c72bc5074eeedf8c4b9435a24a28da10d48e34"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b7dd0d57685f93b75c327fdc2791045bc8a4ba6cd47a7e8ecf951146c2ab4b4d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1d2af8f8eb76096860dae9803916b36c63a6bac47fad6d66955da43a1f29f08a2a098723c399e6379bff491477eaa5115e65f1db97bfbb6692a73f976fb01399"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1f907374c0282f9d7f21a3db22c6bba37ea6ffb333c0840953549058361ec8fd42e5c214f7554d494b7bea6c0d6ea614"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cf385a87d2cce097f0028a6cd8739b8162a0331a65fb39159e61d6e3f579dd965ad07ade67c1526c0d2766ca9421e007"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "745c66b3ad6e89f80725b5d9d0edcf445405e67c9e00af6e414b1ef46d815bd8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0b605730aee58d88d07168b45004a94fdfe0f9597d77aa191290ded6f3b2a5b932a3410ef09e6a08044d4a9711a94385d4dc9277cc8b7c0722a62799b03af8d2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-socket@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-socket"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-socket"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-socket@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-config",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a0e1d77256bf026f03333f6f6aa21710"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9cdabd5ed752f24b811827ec4f4933410342b590"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4c8ba67e0da42f449c33539119701f4fff5c4a4ff845ddd56a8e0d3e92d935a9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "bc3259f2ea40fa90c18055f7f120d76540cb97b130d8c07e0a690b06ab384d58eea13a600c5a5a5bda6bc3717d08c1f35f12fb7ec89476c77568eb9b738f87b5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b3da3f80e6df31c14abff8bd257c3f3306b04cc3e011fd1de5d1a4470c0ad5b1936f77d2a89ffde1d5cc191d00cb267c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "07fe1e52ed764371b913c258b51d50132b7f51ccde4d8dd61402e4db99253e144caa9171bd40b8824cb293f68c015d8e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6fa2f9806bc552bb56755fefd26671c921d1d677f984f6794bc201827311cd82"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bff96f2d2cc4b2bee23d5da16f10532b28daee517f0cc60598b66aea68cea7baf90a4304ea365cb2aec7791a8ef184966e3b790d87d6de5caeaaf321240e6882"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-config"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-config"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.builder",
+      "name" : "helidon-builder-api",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e76a5bdf655d4d85104feb206617810c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "004487cce1e53b6b39dd6eb9bb05e022c62364b8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fdac30351ece9127aa69daed7d6cf6c735d81cbf3b18b4a0aeb4f6904557960c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "15160abb3be422e13bf8dfe99f9491396b4a670bd47db2a435cb064694b5dba8a88471f54b4b344f472a87b4d3a51362d4a1adc340ab74d54757fc454e279af2"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "599e0fa63a34aae9575b06dc4872d080c64d5f9a725a3977d5a7c339d3fdf71a3b9f951431f6c377260f087fcffac6ed"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bb3591b3b83c57acc0ac5a30ebf475240bb9227686bc8ced148ffd7b126f5c71ff342eebbc64e35d2ae37636eeee9d3a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0c5ea9403ec2764fc5e2077d61837c950fd1f3b1106708c55de3bd0a38b6706d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "76041902a07b561aa2f6dcc7bcb1992de62f05f489285e453be71e5f0ae4d002cd70ba88d10f32a1667b9d3aab29c8b9adda22522905d0a1a6aa120fe6da469f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-builder-project/helidon-builder-api"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-builder-project/helidon-builder-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-context",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "43c055e9c921b879edc57af705a0d32d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1d861ea97fe94c54e81d3abb4d0e4aaae1ce7f6a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b804ecb4a79fa60ff40d8dda346d552a6a829d80838029c8d7359fc8026b76ae"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2476d0615d207439859b379049e7a9dc893208702c8841783c641f36c390593b89d0c2ca8bb275b5f4b005bd30b4ae45eb0e89fce4bb82deb8c4c87c1e737e45"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ea7d50e36f8e44e0e2eb7e264173c05a90873eae63e9c1e061e62acbfc48db8f01d91cab2c79d7e77d0ad9aed88040a4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "76c5130b25a272a18de03d99db5c4a3c006db3876cf752a36c6d53a12a4868a5d6fcd492f60065179460be4ac9c953fd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d6f36b7ac9df70f5d8f210d79d66e7f0c473fe29ec5648a5783627437664c63c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2ba71864108aeeb5424d094fade6b53b573d680b964871ca80394945fcc63cc2fbaf7707517e670bab1b17f859447da46673de8a2f311283fefec9ef6fde5250"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-context"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-context"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-key-util",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c0b41736c08c4031ee5841274072f769"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "82f8203aeaf4e3c5b3416d05d4ee9b106b0b1d0b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0096ba1926615a064728916827d02959db3313b1cbebfc8f0111e13438f3e3c2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ab37f1eb7b39ef347e2e04515c134f2374f4aa8cabb1fadd0c2a4178e2ce846a898def30cbf4adb45045423641d62b8b2bc63c9b8828775afb87984f533f7bb1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0d0c2619a80c21b8e4870e6f0903a5b8e78c56906d82ca7e13009680ab65216656022aba41602e623f62b62236c8baa7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "533bec1d76ab6b41ed8a9a78b7ba37d7404a9b98953500c557123c2c2727c07f707c94dba46fc68c4aef2fc967739fe7"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c49b7bfa627fee1ea0ecf1ce6f5473813a080042a73b019befb87e90c17a9f5c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5626215e89069d2778b2539a90c2a16099eef565423d4487c3c1b5376bf3e2f070968b2b07066bb8d04a3896a123e2dd08d3b652bd53298f954e3f695c74ac8f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-key-util@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-key-util"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-key-util"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-key-util@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-security",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4660b4bee3379ed96a2190897d6887bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "581f5afa6f713cac817e9c36aff3522c749addc1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f18f09891810fcfc0c14b43cc81329ddd7407accc16ea6c400b707fa03f2ebee"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f181ca2a895817b7cef4602cf496fa6f926b443e93c431cc088176015fa35211ba514410548843ae493c74618721c9aff3039b00571860b73b2c12d36b3e3310"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e3bd98b5ecc924807727214b512c9328e3af16f829e7667d52a2d2d70b2ee7f37627fed2c5785e44994b567ba7abac2a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3699f30c10a6ddc6c9d5f734b855e502d415d1ad1a1d8ff4cd693fdb37d6ab3b90603316515a70d293bba0f8a0f8481f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d57d410c30c842144c79b10e97829cc6e4bdbd515aa63b34d145e33f1030078e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ae23b085537744597d2073691099ea7c5f0fe4a88acde655210f2d30830a44c683e8e1bb2e0aa6a0ad05f4c3b04f6b9ee16d1a7bc1a3501c5fdb91c057f669f6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-security@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-security"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-security"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-security@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-task",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "11fa9ed5f587cdcb4cfe1d51db6275f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7f186acd6484d4e4093f4de05244b05b124b1adc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f22d4421ba4f6d04a2c350d72ad6884435cd72d54e6dc0b4d2fc19191a321454"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4e5a5a511141eb3f5f43d215d7419e565d622a71e9f7a2669cf223d7864fcd5830eae66029d9f012b4c1cc6038d07a8ccaf6f6ada6edc0ee3215c91370a5f7c3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e95691c0584bbba4762931025b8565386af57df772cb03b8c5d1edf81618731ffe32496305c45a035984682a0e6ade40"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "096e18b778ec08f372905716ebcd5ea54519fe49925330d53c16fe58b69d2f9a526cefaf1e3eea36fe01e3241a1ff305"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5cad2655adf03075987ce4c03b611e0d89cd57413be05821b94e7ada973fc6c8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7aec95b92fe7d21a17ede3ba5760128b49c70fc7b23fa25ea46f442a8fe8fcfccce8bfe9cfaf3a8d676381459e8faebd0a5355bd1040cf92afce4c0e5b7e4151"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-task@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-task"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-task"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-task@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-tls",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3100878a3250935bcec1185db6768651"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "de721adc4e2d0c14e6d1df062a912bccab31f05c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1e7f70852827366a9e7ac5afb572f54324ca73bc6ae0fe9979467d51c4aa03f0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "54bd30c03ada60401268833ab7cc659cd9ee4943ccff634399e672d81737eaabd351e1721b491963ae02857ea5e34215812742c4ef49ab2eededd2ebc3440b34"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1d990d3dcbb54ff791e074e8c4b3ef1931e34511134f3ee5f390187216867ed59751e8287d2f5256de84424fc9d4eacd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "55d03c4ea9cc52ee27f3fba940640d6b6064676f92b5082cf373d1605ebf7c76db531ffa7a18d9b683028eb93841803b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ea446b756457fa1a43b9cb75c8692b8eaa56b42ef96f019c6e050ef85e61601f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b11ef81ed0f5748c744868f1d18f746356165a5cff52c62b76e2a34b1ff410b0d3251b45b56ad3e12d390e9b6aa760130b21a57376688023d3c8c048658e2178"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-tls@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-tls"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-tls"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-tls@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common",
+      "name" : "helidon-common-resumable",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8c0341765b129398427c78f9e18b7e29"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7ecf8882f99fdb09275c1032cefd2224a02052da"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ec7413bc78c6e3633332eaf19d71037a30360d3f12cdc4b6c52186f130c5840a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "485ac2b573a576ef8ad46163c980f0d0ed139312237147c03f1c570535da8f9450a4cef183e071d4dba66f173bb72170873c5ece5c849137d953e852242fd62d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bc98a39ac97df13e33a9b6779fd1a2f7230fd80344fe5599f4cafbe6aafbffa0e8e9a3ec2794aeb316b3a90012f5ec9d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d766eeaae8d1ee6c5f8cc976a0690cc95ddab98748b0f2a58c47a7eaaad043c4bb539a276a202223e0739f35d5406e7c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "30a97930dc913b55cdba9cf308fa4d6712c222d8a7ac6489bc74ce0f982b9079"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "97da856e6182adb8ab2758ceebf0b768575b1ff7d5a0ebccfb93d42dd0d3a7a8e15bd25ac0ce85a18b387194a3b73ef3cd4e6fa0dbea70289ef6f63366feef79"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common/helidon-common-resumable@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-resumable"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-resumable"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common/helidon-common-resumable@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.logging",
+      "name" : "helidon-logging-common",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "85979f6a73323f645031575b338caecd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9b5956e101402f40ef10b8a21cc2efc047182d9a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b31f3991b19a3dd96cdff9bff8cad9e26ad051a26c804b253bf7df057cc44a95"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c3f75f36621dfacad672e74c8fcb51b7f813fdbf42e6a49583ec8cb0f321d2aed5273c16bdb8fd33ba480101756d233dfeb2e2dbf5ccc7dc0ad57f30d140d8ef"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bf38443602b62c71b59a797529a2478b728ffea3869921815cb41148518b463ee9859dcf79f016bc1091952239c10065"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "50032623a478ef5ed87e08bc4a4d13695d8bca66cd7c666ecd357d11659a6cfd8ccd98b08af691a96aa0ac2d0575a977"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ee2a37d8e096cf8e1fda71673bbcc3d93e88ad845a8985d2328bd6c9d7760b16"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9edfea55d6864eeab4c8c0774267e3b5089dc9851a4353b002ae45d94131e6a74e42cfc4da7142cf510a1c6bc93be7648d09d6d595ce352a2851616f6ae4119a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.logging/helidon-logging-common@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-logging-project/helidon-logging-common"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-logging-project/helidon-logging-common"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.logging/helidon-logging-common@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.http.media",
+      "name" : "helidon-http-media",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fcdb61ab0cd98a2e4b434b57a0cc980c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6eda2b79d56355942238b4cc911e1e0d2f72e00a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9d1149d5ee34e2553860d27e9f9d5d6908d52588aef2f6982eb96f423b4b71a2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "66421b69bcbb1ff20282346e4030153283900886773fd2f15ce72307fb6b92f9df2b19c403408eb1aec29b160abb5947e1f0ba9cb2a0a2da131690bc9f582358"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "22d612b03d96038dc88dd1d58502ca725f364abefb90ee1724bedbad0838ea81b01fc35b3b2cb28b88e2282195a16426"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4aab44e3c0ac80075467e105e956492f0d54d8cd8d2c9cd08a597637bd4a7f19036afe49fef45ec436273d852191fc2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d059a61623e10f75cf881e354b9092d04d14ec72368ccff93b98d413ae23130b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7b4a56cfe9701a1c980c2c01c69906cc8130ad73890debf605b386964d02e9100cfb076662125c9c5f70e171694728b8a93f645be16819fe620dd999c4b43c8d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.http.media/helidon-http-media@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-media-project/helidon-http-media"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-media-project/helidon-http-media"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.http.media/helidon-http-media@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.http.encoding",
+      "name" : "helidon-http-encoding",
+      "version" : "4.2.7",
+      "description" : "Content-Encoding schemes",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e8884c76ae0a202f8542ac251c6410ca"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "dc5b3a8b56afdf6417b9d549e70ec612b71e66a2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a6cf72076169807d1875fc678ee340d427a3071c3dbba01dbccfbe2fc631140a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "638f923220eef9bb0ee33a30a80ca94d7d65069092b3d75383d769ee0714fc75dbeb195b058359f20a5ab3b23a805da96ef28d706b1a89871a652c1bccda1456"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a772aeaedb72074fbfea2ac3230e5014a3f1e5806a1bfb072b54a7a72d2e2d42b17ee7defe822b92e3b8ccadfac38d82"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2eaeea32d862b5f5ff8fef60066de537e71933bd7fc42f70e186ca2ebcb2a0a600cd0a6df3e76b61f59d9f5323d893ba"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "331cd4bb9bf26b54b9d05332a9798bbdaca1e903350578f207d551350f2bab9e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d805b4187e30e5d97717efc9d1a6caae4b681cdaf0e9050fbfcead93ac70042f5f5da7264379830f11485d6361eed7c6b6f3e99e839e0ae47daa3a9403c7ccbf"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.http.encoding/helidon-http-encoding@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-encoding-project/helidon-http-encoding"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-encoding-project/helidon-http-encoding"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.http.encoding/helidon-http-encoding@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common.features",
+      "name" : "helidon-common-features",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "054fe23dc2a040d810912cd9a6cf7288"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4cc6920e32aabb5a6d0d50f8d4bbe1f57198552a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0c1a3e39f132905e2eb026621ff432698b164a14a29f6135f3da60640e34cc14"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c48ae2b63089749b5092a9b81ea3f0632e5d628308a21455a0f76b53cd12eef00aef50e01ab8aaa5c6c17ac7a3929d460aab2497108f0479835741c52d0167a8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "de90b076f98229fbf925207eaf2f3c203ea7431db2d98deafd98b7e034fb301a696d2c4b4533239bebaabd6113414ff6"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7ccb4d5f682f43d57532615568ea31dedda870ae7114a39c3a7a91679374be54a3c7c0e5af1aa908c100c4e168a39686"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1473ce072d918b26d6d21c62a96c18ef3ae5d30a58c4a06c541225ffc42028ee"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bb76f2b05f8850bba391dc8c058c6ceb6c0227cefaf0ddd01cb12b2f0199c2b45eedb8872b5f137f9f9a48e4a4a6d517ce38434894919a38469e7f2649eceaaa"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common.features/helidon-common-features@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-features-project/helidon-common-features"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-features-project/helidon-common-features"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common.features/helidon-common-features@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common.features",
+      "name" : "helidon-common-features-api",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9b2dab4868c695e33dbcf91604c7c9a7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6b2069412034ae7a96a41fb0f93dfe9cfd4337e2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1352581872991ceeff1d740019f63c521ff8274401612fdc072d57fd4829e7c2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b7b1790cebf3dc1fb4baf4290882c999f5bac0363cdcde6e47772c7a938c1164e416851669f2707b4f045bc4e1edd1b880bf1ef86378b657f72fb2bdf53c8c8e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7adbce4e1efcb76fa3f03e110a128be41ec0dbae0025947f0cc7405acb8d8ff626a0396c2e6fd3b3c0a62cc89baa5326"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "494f94a5dd325f36f184ce82fb9c40c22636943d7855346d65ff3ae4e543954d91ed013114983ef839eb3c2f226f8ff4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ab5766b59d2f9c5ecdd7a26be3d1857da608727d920535ee76cad0b2d71a1765"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4124fde350c265b631e55a73e73978add02a1f186fb16c708e523f93903656c9b8a492f6aaa45a7ddf62579939d5870fff8cdf6e5df4c02c22b228aece203faa"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common.features/helidon-common-features-api@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-features-project/helidon-common-features-api"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-features-project/helidon-common-features-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common.features/helidon-common-features-api@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.common.concurrency",
+      "name" : "helidon-common-concurrency-limits",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "08446b80fa78a18cb1fc328944075cf3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "84c5fab3a2c62789eb9d54a161a1242045c66a1c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e43a79098eb6600deec27b806295f66f47bb419095321765b85a09892ff1d1cd"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0c13f9e0584a91087b1c1da84bb3d9d8d08a2251a62a111429b7b1b48bf4be6b7fb94feb8b8cb10de70bfac4f3254723e09e3591c906e2eae046d3e39e59e25e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2633c3e756db0bae02dab3d5caf95d505449506eb57c66db46c3b637430724ed0072b2ad8ca2d2131ac9a20f35f3cfd9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fc2e4f0c86de4f6363e43413ba2df9a85866e87174468029dbda60775d47a46a0f53194bc01cca3be868825d736d4dff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6e3be91bb7fdb61bd968323923d2ac2aede81edaf08e32a232f28ea564ed8f57"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b2f5dd212050991977e8b9b1e9116fb6cede24eb8f4159f9b22c041ab27ac1b21c6771e6d511ff85e4193a30554b3913080582c3f9fbfced58f28aa85acc164c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.common.concurrency/helidon-common-concurrency-limits@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-concurrency-project/helidon-common-concurrency-limits"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-common-project/helidon-common-concurrency-project/helidon-common-concurrency-limits"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.common.concurrency/helidon-common-concurrency-limits@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.metrics",
+      "name" : "helidon-metrics-api",
+      "version" : "4.2.7",
+      "description" : "Loader for metrics implementation and a no-op implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f74580d0f8caeddab477efd6601c65a4"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fbed30e6f3ed536f9b2dfdfcbe172b171eed88c3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4eaeeb275ef74b30d902f8755f3de5e71d7a4005a752d5812def23179fc2c220"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b8e58826dcdc1fc63e51464c8306a109fa7725c2a34f3dbf497ac690af7fbe34b2b6d4e334c9a5e6c8bb106cada59dafe1ee33e72a8c62fbb5d78b901870b2bf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7cd2f6a5703af7e44ae80f166c1efc181d8062303c7627cf5070209e4b4b59c87b28798148549e6cbb568bec35686b6e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "add28e40e127847d2716f895897eb118ad6c35f24627452bc0213d7692b65968c17becdf90a22445dbbb3baf303de6a4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8eaa7163b2c45eb966ed0a9a734a0686273d77143ec79e0c41c5adbc0de3fdd0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3582108f70643cbd6cc3ad076baaf7739ea15a023cfa49a4a8e713ef526a439f55d9a5bfaa8946f1e6a99c4774eeccd54f9baa2437856f2ec54557c3a8e75adc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.metrics/helidon-metrics-api@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-metrics-project/helidon-metrics-api"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-metrics-project/helidon-metrics-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.metrics/helidon-metrics-api@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.config",
+      "name" : "helidon-config",
+      "version" : "4.2.7",
+      "description" : "Configuration Core module.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e1e07cd1daccbf592763f3b49f164860"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "31ff1dd9d3c67192ba7206131b78e26171775cfa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a4935d358193788e3c846f7cdc5e00c8c6e7cb11f24adec7ea35d5c99de811f9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "52a3b044492819a5aa29fe7a1ca2c4dcafb6db2fa710d35db82ee307a47cd64e6d2e4f4039f4abcbc9d7b1c9f587688a267e23436a2f68a2062ffb953a23a3d0"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "17dcf087ec26d623948a10fc675ad00ee52a85921544bf85be0916120f164edca99e4eaedc672dfa54e67d099514226a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5c59ad86aabdd3fcf029f8c15ca32cf9ab046ed6d82813708f738d4da2ed67754ebb6ab5f9eb14dd39eba38e8a5d1faa"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fa391c22dd046e76afc537415ce8e3f0e60472ffdb51d36166a5e6974ae441b7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "26dff76ecfa952ea720a7f165f40e509edc203dd31bc4e7af25dbbc534c433619634e163b67511b54d18436bbc7a603c7f63369b0c954048650d8d2bfb563aec"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.config/helidon-config@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-config-project/helidon-config"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-config-project/helidon-config"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.config/helidon-config@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle Corporation",
+      "group" : "io.helidon.http.media",
+      "name" : "helidon-http-media-jsonp",
+      "version" : "4.2.7",
+      "description" : "Java libraries for writing microservices",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6c30b1ba1224b84f96ec375d141401c7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d502dbb6432357a6fd15010c9750d9b1c7853c28"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "addad24ad2eb06e0cd3d9dc84660f43e24e57ac3cd207a7d841ff1866c2622b0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5abb1208b90177c7dad80bb1f69b5bd39814d08ee7dc0649b26e144ec2c8867673dc773ff3663345cf0361b218a9e3ebc37e40f48a459f56b0cd0a077064f291"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5aec961cfd763ace878044b32b6a63699c3b9fc2e66b9045d6a33b8613e9312627f935a7548a388b11156b02d8607bb7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3629e945fc9fcb76727dba01e1a575e04f35e240a8e9aac0afdfc8927bad907970713be838cfeab404e2dda48c46e957"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0066738da5722570b8f1ba2f5e2d943c89ae475e07d1cd145a32f8014655b7e5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b2459abd545213201ef10abd1c978269eb24a25813eed3dcf129fb3a837cc57428ed5479f85d2763799df5e142d4242f9aa6f04cac9388d7f86973da51e29e69"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.helidon.http.media/helidon-http-media-jsonp@4.2.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://helidon.io/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-media-project/helidon-http-media-jsonp"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/helidon/helidon-bom/helidon-dependencies/helidon-project/helidon-http-project/helidon-http-media-project/helidon-http-media-jsonp"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.helidon.http.media/helidon-http-media-jsonp@4.2.7?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.parsson",
+      "name" : "parsson",
+      "version" : "1.1.7",
+      "description" : "Jakarta JSON Processing provider",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2aeb1c0343fb4bcb8a0e4cf9ec063950"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f5825abecd373006262dd319d7df8c5cdbd140ca"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c21db018f8ac6cf79893f1af77f1cd337937bd12ae6fa3d4b10f5a00819ee56c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7d89e9feb65774ff1fb0801a5aa47c3e90c80e2625f52e91a7b8956e18368984d820e6234ddfb0cd8225f0b6d8bbf9beb375a62c7576bf6f2363da3de67f2560"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "d3bb387ec9db268850c28cd25ea32d4945cd25a4fa2c4fadf1665f7ebfbec55d0ec75c91917f911a6c39978764fbb076"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4249834cd09b66e891e2be1e5bb054f4427319c99e406505e2ecced16d5fdf28fcd359f49f552b038ecfb03e4c87f8e2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f7bf05e0a13037132314edcab452839af822abfc565ade95c36d87387ecdfd60"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6b0e6662d7fdc6412a37c060ee92f3d42a746c52ea26f42c615bd45a62bd25f5310e70d095055ea30ec101f764c379c213926c05583eafc21a78b207e164a93d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU General Public License, version 2 with the GNU Classpath Exception",
+            "url" : "https://projects.eclipse.org/license/secondary-gpl-2.0-cp"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.parsson/parsson@1.1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/parsson/parsson"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/parsson/parsson"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.parsson/parsson@1.1.7?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.json",
+      "name" : "jakarta.json-api",
+      "version" : "2.1.3",
+      "description" : "Jakarta JSON Processing defines a Java(R) based framework for parsing, generating, transforming, and querying JSON documents.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "596997520702889d4afef9cffbd4b71a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4febd83e1d9d1561d078af460ecd19532383735c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "bc934142805ea1d794f1440563965a3861a2a9fb7414ecd3fe44f26500734414"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5a6566f0ceaa8b0ca40ae643942c0d46acd118a3b4d85af5f3a977e738465e8c8d4bc977f0c3e4b51f4471e408c28f66dbc0b19adf61237f6f6f7fa1d0dacc31"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1a17b8a416692ba0e485d7290782b2b5c4de8cb65c2043f221381deee668953655c221dc3efa29d3c65c8b2c1fab173f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4c009f9fec6b1e14b2c675ee7addb49ebd047d71d7aaf31601ccea3ffe4af1d82838a3452b0e5d7c2814e27861cd3ffd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5b839f4645dbac0d1bc76a91e168a52574c2bb6de0b7e92cd14aafd0ad6a28b0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fedcd8618f44ab0b771bef7d2fcb61d49021eb2e592d8d3058d3f57e7fe0ed1a9239cac859fe534dd0629aaf577fb8f77841412dbb3ae58b8d8cd0754da2ec48"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU General Public License, version 2 with the GNU Classpath Exception",
+            "url" : "https://projects.eclipse.org/license/secondary-gpl-2.0-cp"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.json/jakarta.json-api@2.1.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jsonp"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jsonp"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.json/jakarta.json-api@2.1.3?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.17",
+      "description" : "The slf4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b6480d114a23683498ac3f746f959d2f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9a3e79db6666a6096a3021bb2e1d918f30f589d8de51d6b600f8ebd92515a510ae2d8f87919cc2dfa8365d64f10194cac8dfa0fb950160eef0e9da06f6caaeb9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6ea24f814a9b6ece428cfd0535e2f3b8927005745ef61006b50fdb5a90126ee5ea05650155382b3b755c5bce38ef3944"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9b1015052f0ec43f9be09764e131834157599611cb52f6fe591c4ac6a8ab4817518f2a4b8871e5e738c8678e93af5557"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "00559b4f4066b4917ba4fe2a6f23111eaeada321112d030910d218ced9084b5e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9579c2f7e7516e177c2d493ccc9eb8150978cf19f6f09b28d116f6935239fd56dc6af2b62b3336f79b0b462445550cd1fb5377a07001a6f44aaab6a32fa2fa47"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "jul-to-slf4j",
+      "version" : "2.0.17",
+      "description" : "JUL to SLF4J bridge",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a42936c56611e4794c42908fb3d3a647"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "524cb6ccc2b68a57604750e1ab8b13b5a786a6aa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a7afcd23b9cfd1475e55c94f943b808c5922035e7e2c2a5c65a487a4106bc538"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "623426fb3a0a34c88b1fce686cbfaa8d17bf013f3583886dc94273bf2f767492044b48db6557988d764f0450129c9d496dd3c10ad548099879d80e3945f2f636"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fe66fb82c6f9dca6f8fb1d61e1fc6f4d8bc9b616cf89aa5b54fab933e1a55506a2400e8e9b1c92cb2787ac69731103f4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6f537049a039795f0f4c0653d2ab959fe0bfeae53f629148773db1a819b2308e16ef6e3f9d49a5741e9adf0ce5c34eda"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f25e1333214a362f95ef31c8465f6d89b4bb7399638f4c4ad53a6d9f0ecbd649"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a831c814c1064b39ead500e542de1decfe302688936b93c9aa781938bb0ae884907137ea34f18f99436f24fb9ddbbcecaf32df543c691d6311671f7e8b81dbc7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/jul-to-slf4j"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "ch.qos.logback",
+      "name" : "logback-classic",
+      "version" : "1.5.19",
+      "description" : "logback-classic module",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9a2b8a489b2c13d0e698a9ac5a236649"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "227519801110b803afd68449f11209bb60703630"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0872c1a2a14c29ffcfc0e42227b80f7e99fb17a5456270499ac6cad0d0436f1c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b4f3231d2489c19615520dfd3282cc5c14d92beb72e8bb20a2301df4b89bdac34958dac39dd8864bf826838072cb6a2f1ab97c1db4c05efd8a17218f1004fdcf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "cefc2fc248c0c43f03fb94c4224b35b1d8788336cd39ca7746c998603eb1fca8fba33ffbd7ebc9efc550c4ca562c5276"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "986daa6c2d54b358beea87e9e4e03d761291ed478f9237a0d14bef13e27301271549a15879edba00afea712c2ba77f8f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c11b9a8725e7d7577320c287c1e7b113cd71e43bf2ff7f4cf9551223f171d908"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "427b68433aaaa0c143539cb44ce44bb60531460bd6cf5544be9658981477f10c4870bdf63057bbca7f6b9515f3d228daafafe80a5a620eb4994a0e9d00562e96"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License",
+            "url" : "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.5.19?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://logback.qos.ch/logback-classic"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/logback/logback-classic"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.5.19?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "ch.qos.logback",
+      "name" : "logback-core",
+      "version" : "1.5.19",
+      "description" : "logback-core module",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "15b5536ea5e878a7664275745af16f30"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8847d9fcb02c62c338ba26e2b28059dd585ea1a9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9ca72fe31e32fad244ec9339570452e29631f67b7b9a72a7cbecd73c94dc3f3c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "20f6e485eab6851fa74a68f740c6387ac041e7a2ce7eb2be1ec291ad287cb7154ebbd4514655624e3845269db38cbb57ae7a240f1f79cb4fe5a31f9c70cc4c53"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "40896f85789fd1846926bd149facf06ab7d8d2bcf5064164484218cefcebf6f93083ef95be9dcc3f3f82d43707b159ea"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a43ee6c48fe66b7d7f21489c77f64ca07bf5cbf1745d32b3ca87b7a89ac1dabea76c83a0786288735815eed221e1cd7f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "639943642d465c4660d283175a1745c9510a06e2cfd97d55e4ccca5b3f1f350c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aeb23e3cc5634a2c6cb33a03580786b9a0f98ff60f6967459ae5f916de35132358f92529621f017480a3b25cedd15ecf68b24432fe228a820eaee21c0d287e5b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License",
+            "url" : "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.5.19?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://logback.qos.ch/logback-core"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/logback/logback-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.5.19?type=jar"
+    },
+    {
+      "group" : "net.logstash.logback",
+      "name" : "logstash-logback-encoder",
+      "version" : "8.1",
+      "description" : "Provides logback encoders, layouts, and appenders to log in JSON and other formats supported by Jackson",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "08a18cd6a4737221773acc1d2a5c9e3a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "aca81cdb03c48f4e0213d3e351ab1befafa9991e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2716cb6a3e83ec2f296395b8752063f502d10a90de1a88f711f06ae5b6ecefb7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "71c73ef76d1f1562a54ba2f0fe8335f5e5a4938dc7896bcb58abd8a2b466e8c46640361d63ea475a5d37b12334335fd3e2827eda54fd17b0384027d955cdec7b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "5c332ad34b65c15869217e79c5e505502df624b0e76f47a7a9eba4d323a1ca4ea34dabb1ef75de489b329e2f94deba1d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "cd44829a3e71f245a300f9b5a6d9b1e7838835b5f16dcb3d5c01c3cdcf23f76693abe517014bb5318d528e74a0ea150e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a5fd0008198d89b57aff757173ea60f1aa0e3cc2ea4ff043b2a73c5bf200244e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e3769fe9dbdc066f346b3f38cd3738d6d19bc5a0551164bb7593bf3dfa2deeb338d24ae664fda0b7f20510127fddb9875b4621b8f63cf76c851369711ea4e79a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/net.logstash.logback/logstash-logback-encoder@8.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/logfellow/logstash-logback-encoder"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/logfellow/logstash-logback-encoder"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/net.logstash.logback/logstash-logback-encoder@8.1?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.18.3",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0cedbc3d377d089e73bb949653b1c76a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "537e3886263e3b3464385040453e92567fd509e2"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "510bdda75a7a6186c5bf33b851239488a1450906ae5757121f2e1cc48a7e108f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2a52179837b9369bae4bf1f87c249401efb0525497a86d34aa1f02a797a47880b3ea618eb84659c6c885b02e825b2bf3de1e4703ae052bbf9decc6b7051d687a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8ea53a8c5149394c12670d18c67bc2ec8047d9c83e9b74c1b14bc597c84d8d7287c16c6ff237f3308d8f466bdce7f985"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "dec840ab6b8a8fa0fd3dee984495c7d2ed5e3e81693e4bb3522dd3c01486f5dc8155d3362e91c803eb6c60aa98329cad"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d5cbc639d63a2f67db5a0acc5f61c6219aec17da4afcfca1e6ac639e7c3658e5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d7b64d8940963847785b3130db0dc52878bea9d5c3d995b725205b7dc614e3785ee1d85e09e53c1d776243032563c2ff4bc09c90651cc4c1cf8066088cd8b072"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-databind"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.18.3",
+      "description" : "Core annotations used for value types, used by Jackson data binding package.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "cae46e2c56e1b40b67dcfcfc9b6e275a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7fa21cf7da4598f8240e4ebd9779249622af1acd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "8aa5740d80b5a5025508b41bbadbaa1fb3772267c628b2e30681a4f45f8b8931"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a872242613d5be7537db8ad5d0408aa8928d376e1670bebd473b75e0953370abe77b725e11600e67b8bfb7650739e8c0d69a142dbe843719c5178b00b5deef96"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4974172f3cb367787dd20eaff3eef7ff0eda89a2f585a57a10279627d781a9f30806c0249e62e1f6eb31204a8db8a631"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fff9edb764c5f8cfc7ab3356843cc2ff210342d3e685b102ed188a7753995b3c5e4afbe7a526a8911ed62e67bad61982"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3c34ebe111dfdf9ee8687276a2f188f3d60aea2da84974f83d1ede83bd6f03c9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4162e428f22d7eedb0d074dc4cd56ab74f5bea4514ff94b6669fc1dded5ef22b3f4784f193bf65a0914f30ba1801f085116fbb19b0d64946b6ba7f61be597974"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.18.3",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b36e17ef5ba214242b700f8e621e6f12"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "78f80c259268200e588aa204dd97ecf09b76916e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "056bc4d3e5e53ce821450fa97b3f9e0f8dde125cf6da6884353bb1f09582e1d9"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f741ece5a41f1d27c04bdbe839092fec0fac1a7b139d9f5fc92141b4a396f622b7f668f4fa97e42da0d6d4237334e117841753e209adb49d1ac0a1a227cfacc1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ba3a365b036c63054d5c7af2bca227e61e4ed1680d5c204eb7749a0809201917c0916d0f1801845edd5b3a11e1904652"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f29e30c227845fc13fd0d264fb6d52643414e6c9ba894f87398639f987af161ddcbd6956af9b908c85c83cbae7bd4997"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2d9735ec2deaf453f4365b3310cc515da26c9dc19263b43c5981bfd391af415e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "db1c4ff7711c1692218fe880986d82a6efeef6f0845bb32d9c113d5329d3264b938231f55b641f4eb8d2e1be837e2040cdb19d955f9d2e73509768469d78f5cf"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/cloud.tamacat2/tamacat2-helidon-se@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/io.helidon.webserver/helidon-webserver@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http.media/helidon-http-media-jsonp@4.2.7?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+        "pkg:maven/ch.qos.logback/logback-classic@1.5.19?type=jar",
+        "pkg:maven/net.logstash.logback/logstash-logback-encoder@8.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/cloud.tamacat2/tamacat2-reverse@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/cloud.tamacat2/tamacat2-httpd@2.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.3.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.webserver/helidon-webserver@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon/helidon@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-socket@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-key-util@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-security@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-task@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-tls@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-resumable@4.2.7?type=jar",
+        "pkg:maven/io.helidon.logging/helidon-logging-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http.media/helidon-http-media@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http.encoding/helidon-http-encoding@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common.features/helidon-common-features@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common.concurrency/helidon-common-concurrency-limits@4.2.7?type=jar",
+        "pkg:maven/io.helidon.config/helidon-config@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon/helidon@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.logging/helidon-logging-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.logging/helidon-logging-common@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-configurable@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-media-type@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-configurable@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+        "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+        "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon/helidon@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-context@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+        "pkg:maven/io.helidon.metadata/helidon-metadata-hson@4.2.7?type=jar",
+        "pkg:maven/io.helidon.service/helidon-service-metadata@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.metadata/helidon-metadata-hson@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.service/helidon-service-metadata@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-types@4.2.7?type=jar",
+        "pkg:maven/io.helidon.metadata/helidon-metadata-hson@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-media-type@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-parameters@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-parameters@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-mapper@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-socket@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-key-util@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-configurable@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-security@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-task@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-tls@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-key-util@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common/helidon-common-resumable@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.http.media/helidon-http-media@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-buffers@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.http.encoding/helidon-http-encoding@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-uri@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common.features/helidon-common-features@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common.features/helidon-common-features-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common.features/helidon-common-features-api@4.2.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.common.concurrency/helidon-common-concurrency-limits@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.metrics/helidon-metrics-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.metrics/helidon-metrics-api@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.http/helidon-http@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar",
+        "pkg:maven/io.helidon.service/helidon-service-registry@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.config/helidon-config@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.common/helidon-common-config@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common@4.2.7?type=jar",
+        "pkg:maven/io.helidon.common/helidon-common-media-type@4.2.7?type=jar",
+        "pkg:maven/io.helidon.builder/helidon-builder-api@4.2.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/io.helidon.http.media/helidon-http-media-jsonp@4.2.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/io.helidon.http.media/helidon-http-media@4.2.7?type=jar",
+        "pkg:maven/org.eclipse.parsson/parsson@1.1.7?type=jar",
+        "pkg:maven/jakarta.json/jakarta.json-api@2.1.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.parsson/parsson@1.1.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.json/jakarta.json-api@2.1.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.json/jakarta.json-api@2.1.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.5.19?type=jar",
+      "dependsOn" : [
+        "pkg:maven/ch.qos.logback/logback-core@1.5.19?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.5.19?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/net.logstash.logback/logstash-logback-encoder@8.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.18.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.18.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.18.3?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

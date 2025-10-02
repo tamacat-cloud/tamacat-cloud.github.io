@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Oct 02 04:01:51 JST 2025
+tamacat2-helidon-se-2.0-SNAPSHOT-cyclonedx.json>=
+tamacat2-helidon-se-2.0-SNAPSHOT-cyclonedx.xml>=
+tamacat2-helidon-se-2.0-SNAPSHOT-jar-with-dependencies.jar>=
+tamacat2-helidon-se-2.0-SNAPSHOT-sources.jar>=
+tamacat2-helidon-se-2.0-SNAPSHOT.jar>=
+tamacat2-helidon-se-2.0-SNAPSHOT.pom>=

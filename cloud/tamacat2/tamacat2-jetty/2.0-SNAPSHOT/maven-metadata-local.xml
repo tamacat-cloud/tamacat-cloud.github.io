@@ -3,7 +3,7 @@
   <groupId>cloud.tamacat2</groupId>
   <artifactId>tamacat2-jetty</artifactId>
   <versioning>
-    <lastUpdated>20250515150140</lastUpdated>
+    <lastUpdated>20251001190112</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,36 +11,36 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>cyclonedx</classifier>
         <extension>xml</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>cyclonedx</classifier>
         <extension>json</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>jar-with-dependencies</classifier>
         <extension>jar</extension>
         <value>2.0-SNAPSHOT</value>
-        <updated>20250515150140</updated>
+        <updated>20251001190112</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

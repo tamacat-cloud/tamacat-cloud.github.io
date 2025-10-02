@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>cloud.tamacat2</groupId>
-  <artifactId>tamacat2-reverse</artifactId>
+  <artifactId>tamacat2-helidon-se</artifactId>
   <versioning>
     <lastUpdated>20251001190112</lastUpdated>
     <snapshot>
